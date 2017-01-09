@@ -1,7 +1,3 @@
-cruise:
-    resource: "@CruiseBundle/Controller/"
-    type:     annotation
-    prefix:   /
 
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
@@ -22,6 +18,10 @@ _liip_imagine:
 elfinder:
     resource: "@FMElfinderBundle/Resources/config/routing.yml"
 
+homepage:
+    path: "/"
+    defaults: { _controller: BaseBundle:Page:index }
+
 remove_trailing_slash:
     path: /{url}
     defaults: { _controller: BaseBundle:Redirecting:removeTrailingSlash }
@@ -31,7 +31,7 @@ remove_trailing_slash:
 
 page:
     path: /{url}
-    defaults: { _controller: BaseBundle:Page:index }
+    defaults: { _controller: BaseBundle:Page:page }
     requirements:
         url: .*$
     methods: [GET]

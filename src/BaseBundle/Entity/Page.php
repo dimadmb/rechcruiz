@@ -523,6 +523,7 @@ class Page
     public function addChild(\BaseBundle\Entity\Page $child)
     {
         $this->children[] = $child;
+		$child->setParent($this);
 
         return $this;
     }

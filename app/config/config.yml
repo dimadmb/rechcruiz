@@ -4,7 +4,6 @@ imports:
     - { resource: services.yml }
     - { resource: "@BaseBundle/Resources/config/services.yml" }
     - { resource: "@AdminBundle/Resources/config/services.yml" }
-    - { resource: "@CruiseBundle/Resources/config/services.yml" }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
@@ -71,18 +70,11 @@ doctrine:
             #   2. Uncomment database_path in parameters.yml.dist
             #   3. Uncomment next line:
             #     path:     "%database_path%"
-          cruise:
-            driver: pdo_mysql
-            host:     "%database_host%"
-            port:     "%database_port%"			
-            dbname:   "%database_cruise_name%"
-            user:     "%database_cruise_user%"
-            password: "%database_cruise_password%"
-            charset:  UTF8
 
 
     orm:
         auto_generate_proxy_classes: "%kernel.debug%"
+
         #default_entity_manager:   default
         entity_managers:
             default:
@@ -91,11 +83,7 @@ doctrine:
                 mappings:
                     BaseBundle: ~
 
-            cruise:
-                naming_strategy: doctrine.orm.naming_strategy.underscore
-                connection:       cruise
-                mappings:
-                    CruiseBundle: ~
+
 
 #       auto_generate_proxy_classes: "%kernel.debug%"
 #       naming_strategy: doctrine.orm.naming_strategy.underscore

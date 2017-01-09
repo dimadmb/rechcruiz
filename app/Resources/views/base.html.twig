@@ -15,19 +15,78 @@
 		{% block admin %}
 		{% endblock %}
 		<div class="container">
-		<div>
-            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
-                {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
-                <a href="{{ path('fos_user_security_logout') }}">
-                    {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
-                </a>
-            {% else %}
-               <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
-            {% endif %}
-        </div>
+		<div class="row">
+
 		
-			{% block body %}{% endblock %}
+		<header class="header">
+		<div class="header_top" >
+			<a href="{{path('homepage')}}" class="logo"></a>
+			<div>
+				{% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+					{{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+					<a href="{{ path('fos_user_security_logout') }}">
+						{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+					</a>
+				{% else %}
+				   <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+				{% endif %}
+			</div>
 		</div>
+		<div>
+			{#{ render(controller('BaseBundle:Menu:getMenu')) }#}
+<ul id="nav">
+  <li id="rechcruise"><a href="/cruise">Речные круизы</a>
+    <ul>
+      <li><a href="/cruise/month/1459458000.html">Апрель 2016</a></li><li><a href="/cruise/month/1462050000.html">Май 2016</a></li><li><a href="/cruise/month/1464728400.html">Июнь 2016</a></li><li><a href="/cruise/month/1467320400.html">Июль 2016</a></li><li><a href="/cruise/month/1469998800.html">Август 2016</a></li><li><a href="/cruise/month/1472677200.html">Сентябрь 2016</a></li><li><a href="/cruise/month/1475269200.html">Октябрь 2016</a></li><li><a href="/cruise/month/1477947600.html">Ноябрь 2016</a></li><li><a href="/cruise/monthschedule">Все круизы</a></li>    </ul>
+  </li>
+  
+  <li id="ships"><a href="/cruise/classlist">Теплоходы</a>
+    <ul>
+      <li><a href="/cruise/classlist">по комфортабельности</a></li>
+  	  <li><a href="/cruise/alphabetlist">по алфавиту</a></li>
+    </ul>
+  </li>
+  
+  <li id="routes"><a href="/cruise/routes.html">Маршруты</a>
+    
+<ul>
+
+<li><a href="/cruise/categoryroutes/vol.html">Круизы по Волге</a></li><li><a href="/cruise/categoryroutes/vdm.html">Выходные дни из Москвы</a></li><li><a href="/cruise/categoryroutes/kam.html">Круизы по Каме и Белой реке</a></li><li><a href="/cruise/categoryroutes/spb.html">Круизы в Санкт-Петербург, Валаам, Кижи</a></li><li><a href="/cruise/categoryroutes/krg.html">Московская кругосветка</a></li><li><a href="/cruise/categoryroutes/sol.html">Круизы на Соловецкие острова</a></li><li><a href="/cruise/categoryroutes/vds.html">Выходные дни из Санкт-Петербурга</a></li><li><a href="/cruise/categoryroutes/sps.html">Круизы из Петербурга в Петербург, Валаам, Кижи</a></li></ul>  </li>
+  
+  <li id="order"><a href="/cruise/order.html">Бронь и покупка</a></li>
+
+  <li id="info"><a href="/contacts.html">Информация</a>
+    <ul>
+<li><a href="/contacts.html">Контакты</a></li>
+<li><a href="/remember.html">Краткая памятка</a></li>
+</ul>    <!--
+  	<ul>
+      <li><a href="/contacts.html">Контакты</a></li>
+  	  <li><a href="/faq.html">Частые вопросы</a></li>
+  	  <li><a href="/remember.html">Краткая памятка</a></li>
+  	</ul>
+  	 -->
+  </li>
+</ul>
+		</div>
+		</header><!-- .header-->
+{% block slider %}
+
+{% endblock %}	
+
+
+		
+			<div class="container" style="background:#fff;">
+			<div class="col-xs-12 search-main">
+			Поиск 
+			</div>			
+			
+				{% block body %}{% endblock %}
+			</div>
+		
+			
+		</div><!--.row-->
+		</div><!--.container-->
 		
         
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -12,7 +12,17 @@ class PageController extends Controller
 	 /**
 	 * @Template()
      */
-    public function indexAction($url)
+    public function indexAction()
+    {
+		return  $this->pageAction("");
+	}
+
+
+
+	/**
+	 * @Template()
+     */
+    public function pageAction($url)
     {
 		$repository = $this->getDoctrine()->getRepository('BaseBundle:Page');
 		$page = $repository->findOneByFullUrl($url);
@@ -26,7 +36,7 @@ class PageController extends Controller
 		$html = preg_replace_callback(
 			'/{\{(.*)\}}/U',
 			function ($m) {
-				eval("\$temp = ".htmlspecialchars_decode($m[1],ENT_QUOTES ));
+				eval("\$temp = ".htmlspecialchars_decode($m[1],ENT_QUOTES ). " ;");
 				$ret = $this->forward($temp[0],isset($temp[1])?$temp[1]:[])->getContent();
 				return $ret;
 			},

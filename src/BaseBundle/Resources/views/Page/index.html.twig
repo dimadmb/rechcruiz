@@ -1,8 +1,15 @@
-{% extends 'base.html.twig' %}
+{% extends 'BaseBundle:Page:page.html.twig' %}
 
-{% block title %}{{page.title}}{% endblock %}
+{% block slider %}
+<div class="slider">
+	<img src="/images/slide-1.png" style="display:block;" alt="">
+</div>
+{% endblock %}
+
 
 {% block body %}
+
+
 
 
 
@@ -21,86 +28,6 @@
 	</div>
 {% endfor %}
 </div>
-{% endif %}
-
-{% endblock %}
-
-{% block admin %}
-{% if is_granted("ROLE_ADMIN") %}
-<div class="navbar navbar-inverse ">
-	<div class="navbar-inner">
-        <div class="container">
-			<div class="navbar-form pull-right">
-              <button class="btn btn-primary" edit="false" id="edit-inline">Быстрая правка</button>
-              <a  href="{{ path('page_edit',{id:page.id}) }}" class="btn btn-primary"  >Редактировать в админке</a>
-            </div>
-        </div>
-    </div>	
-</div>
-
-<div id="answer" class="modal fade">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2>Страница изменена</h2>
-			</div>	
-			<div class="modal-body">
-				<p></p>
-			</div>
-		</div>
-	</div>
-</div>
-
-{% endif %}
-{% endblock %}
-
-{% block javascripts %}
-{% if is_granted("ROLE_ADMIN") %}
-<script type="text/javascript" src="/web/bundles/ivoryckeditor/ckeditor.js"></script>
-<script>
- $(document).ready(function(){
-
-	$('#edit-inline').click(function(){
-		if($(this).attr("edit") == 'false')
-		{
-			$(this).attr("edit",'true');
-			$(this).text("Сохранить");
-			
-			$('#page_html').css({display:"none"});
-			$('.edit-inline').attr('contenteditable','true').css({backgroundColor:"#cfc", display : "block"});
-			//$('.edit-inline').animate({ backgroundColor: "red" },500)
-			CKEDITOR.disableAutoInline = true
-			CKEDITOR.inline("page_body", {"contentsCss":["\/web\/css\/bootstrap.min.css","\/web\/css\/bootstrap-theme.min.css","\/web\/css\/style.css"],"allowedContent":true,"language":"ru","filebrowserBrowseUrl":"\/web\/app_dev.php\/elfinder"});
-		}
-		else 
-		{
-			console.log("сохраняем");
-			//console.log($('#page_title').text());
-			//console.log(CKEDITOR.instances['page_body'].getData());
-			//var data = 'page_title=' + $('#page_title').text() + '&page_body=' + CKEDITOR.instances['page_body'].getData();
-			var data = {'page_h1':$('#page_h1').text() , 'page_body' : CKEDITOR.instances['page_body'].getData() }
-			$.ajax({
-				type: "POST",
-				url: '{{ path('page_ajax_edit',{id:page.id}) }}',
-				data: data,
-				success: function(data, textStatus, jqXHR){
-					//console.log(data);
-					//$('#answer .modal-body').html(data);
-					$('#answer').modal();
-					location.reload();
-
-				},
-				error: function(jqXHR, textStatus){
-					alert(textStatus);
-				}
-			})
-		}
-	});
- })
- 
- </script>
-
 {% endif %}
 
 {% endblock %}
