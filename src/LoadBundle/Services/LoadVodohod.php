@@ -221,17 +221,6 @@ class LoadVodohod  extends Controller
 
 			
 			
-
-		
-		/* !!!  НЕОБХОДИМО СОЗДАТЬ СТРАНИЦУ С ТЕПЛОХОДОМ !!!  */
-		
-
-
-
-
-		
-
-
 		
 		
 		
@@ -257,7 +246,6 @@ class LoadVodohod  extends Controller
 		}
 		$em->flush();
 		
-		$ppp = [];
 		
 		
 		// и добавляем заново
@@ -395,7 +383,7 @@ class LoadVodohod  extends Controller
 		$em->flush();
 
 			
-		return ['ship'=>[$cruises_v,$ship, $dump]];
+		return ['ship'=>$ship->getName()];
 	}
 
 

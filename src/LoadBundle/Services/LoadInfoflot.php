@@ -558,7 +558,16 @@ class LoadInfoflot  extends Controller
 
 		
 		/* КОНЕЦ ПОДГОТОВКИ */
-
+		
+		
+		// удаляем все круизы данного теплохода 
+		// нужно оптимизировать в один запрос
+		$cruises_remove = $cruiseRepos->findBy(['ship' => $ship]);
+		foreach ($cruises_remove as $cr) {
+			$em->remove($cr);
+		}
+		$em->flush();
+		
 		// ТЕПЕРЬ ОБОЙДЁМ ВСЕ КРУИЗЫ ЭТОГО ТЕПЛОХОДА
 		foreach($cruises as $code => $cruise_i)
 		{
@@ -601,7 +610,6 @@ class LoadInfoflot  extends Controller
 				}
 				
 				$rt_name = $room_types[$priceItem['name']];
-				$dump[] = $cabins ;
 				
 				if(isset($cabins[$rt_name->getId()]))
 				{
@@ -686,14 +694,13 @@ class LoadInfoflot  extends Controller
 		}
 
 
-	$dump[] = "end";
 
 
 
 
 	$em->flush();
 	
-	return ["ship"=>[$shipData, $dump]];
+	return ["ship"=>$shipName];
 
 
 

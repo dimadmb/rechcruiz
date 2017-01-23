@@ -93,7 +93,6 @@ class LoadMosturflot  extends Controller
 	
 	public function load($ship_id, $update = false)
 	{
-		$dump = [];
 		$em = $this->doctrine->getManager();
 
 		$cruiseRepos = $this->doctrine->getRepository('CruiseBundle:Cruise');		
@@ -278,7 +277,17 @@ class LoadMosturflot  extends Controller
 			foreach($placesAll as $placesAllItem)
 			{
 				$places[$placesAllItem->getName()] = $placesAllItem;
-			}		
+			}
+
+		// удаляем все круизы данного теплохода 
+		// нужно оптимизировать в один запрос
+		$cruises_remove = $cruiseRepos->findBy(['ship' => $ship]);
+		foreach ($cruises_remove as $cr) {
+			$em->remove($cr);
+		}
+		$em->flush();
+
+		
 		/// теперь КРУИЗЫ
 		
 		foreach($cruisesXML->answer->item as $cruiseItem)
@@ -465,9 +474,8 @@ class LoadMosturflot  extends Controller
 		
 		$em->flush();
 		
-		$dump = $cruisesXML;
-		
-		return ["ship"=>$dump];
+
+		return ["ship"=>$shipName];
 		
 	}
 	
