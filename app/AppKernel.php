@@ -28,6 +28,10 @@ class AppKernel extends Kernel
 			
 			new Lsw\MemcacheBundle\LswMemcacheBundle(),
             new CruiseBundle\CruiseBundle(),
+            new LoadBundle\LoadBundle(),
+			
+			new Dimadmb\SimpleHtmlDomBundle\DimadmbSimpleHtmlDomBundle(),
+			
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

@@ -31,7 +31,7 @@ class Category
     /**
      * @var string
      *
-     * @ORM\Column(name="description", type="string", length=255)
+     * @ORM\Column(name="description", type="string", length=255, nullable=true)
      */
     private $description;
 
@@ -125,4 +125,3 @@ class Category
         return $this->code;
     }
 }
-

@@ -38,5 +38,62 @@ class ShipCabinPlace
 
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set rpId
+     *
+     * @param integer $rpId
+     *
+     * @return ShipCabinPlace
+     */
+    public function setRpId($rpId)
+    {
+        $this->rpId = $rpId;
+
+        return $this;
+    }
+
+    /**
+     * Get rpId
+     *
+     * @return integer
+     */
+    public function getRpId()
+    {
+        return $this->rpId;
+    }
+
+    /**
+     * Set rpName
+     *
+     * @param string $rpName
+     *
+     * @return ShipCabinPlace
+     */
+    public function setRpName($rpName)
+    {
+        $this->rpName = $rpName;
+
+        return $this;
+    }
+
+    /**
+     * Get rpName
+     *
+     * @return string
+     */
+    public function getRpName()
+    {
+        return $this->rpName;
+    }
+}

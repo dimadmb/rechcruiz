@@ -1,0 +1,10 @@
+services:
+    load.loadvodohod:
+        class: LoadBundle\Services\LoadVodohod
+        arguments: ["@doctrine","@templating","@simple_html_dom"]
+    load.loadmosturflot:
+        class: LoadBundle\Services\LoadMosturflot
+        arguments: ["@doctrine","@templating","@simple_html_dom"]
+    load.loadinfoflot:
+        class: LoadBundle\Services\LoadInfoflot
+        arguments: ["@doctrine","@templating","@simple_html_dom"]

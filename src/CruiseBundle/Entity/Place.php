@@ -45,5 +45,86 @@ class Place
 
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set placeId
+     *
+     * @param integer $placeId
+     *
+     * @return Place
+     */
+    public function setPlaceId($placeId)
+    {
+        $this->placeId = $placeId;
+
+        return $this;
+    }
+
+    /**
+     * Get placeId
+     *
+     * @return integer
+     */
+    public function getPlaceId()
+    {
+        return $this->placeId;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     *
+     * @return Place
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set url
+     *
+     * @param string $url
+     *
+     * @return Place
+     */
+    public function setUrl($url)
+    {
+        $this->url = $url;
+
+        return $this;
+    }
+
+    /**
+     * Get url
+     *
+     * @return string
+     */
+    public function getUrl()
+    {
+        return $this->url;
+    }
+}

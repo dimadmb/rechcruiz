@@ -1,0 +1,14 @@
+{% extends 'baseadmin.html.twig' %}
+
+
+{% block body %}
+	{% for ship in ships %}
+		<a href="{{ path('loadvodohod_ship',{'ship_id':ship.id}) }}">{{ship.name}}</a><br>
+	{% endfor %}
+	
+{% if dump is defined %}
+	{{dump(dump)}}
+{% endif %}	
+	
+{% endblock %}
+

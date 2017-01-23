@@ -30,10 +30,130 @@ class ShipRoom
 
     /**
      * @ORM\ManyToOne(targetEntity="ShipCabin", inversedBy="rooms")
+     * @ORM\JoinColumn( onDelete="CASCADE" )		 
      */
     private $cabin;
+	
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="count_pass", type="integer", nullable=true)
+     */		
+	private $countPass;
+	
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="count_pass_max", type="integer", nullable=true)
+     */	
+	private $countPassMax;
 
 
 
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set number
+     *
+     * @param string $number
+     *
+     * @return ShipRoom
+     */
+    public function setNumber($number)
+    {
+        $this->number = $number;
+
+        return $this;
+    }
+
+    /**
+     * Get number
+     *
+     * @return string
+     */
+    public function getNumber()
+    {
+        return $this->number;
+    }
+
+    /**
+     * Set cabin
+     *
+     * @param \CruiseBundle\Entity\ShipCabin $cabin
+     *
+     * @return ShipRoom
+     */
+    public function setCabin(\CruiseBundle\Entity\ShipCabin $cabin = null)
+    {
+        $this->cabin = $cabin;
+
+        return $this;
+    }
+
+    /**
+     * Get cabin
+     *
+     * @return \CruiseBundle\Entity\ShipCabin
+     */
+    public function getCabin()
+    {
+        return $this->cabin;
+    }
+
+    /**
+     * Set countPass
+     *
+     * @param integer $countPass
+     *
+     * @return ShipRoom
+     */
+    public function setCountPass($countPass)
+    {
+        $this->countPass = $countPass;
+
+        return $this;
+    }
+
+    /**
+     * Get countPass
+     *
+     * @return integer
+     */
+    public function getCountPass()
+    {
+        return $this->countPass;
+    }
+
+    /**
+     * Set countPassMax
+     *
+     * @param integer $countPassMax
+     *
+     * @return ShipRoom
+     */
+    public function setCountPassMax($countPassMax)
+    {
+        $this->countPassMax = $countPassMax;
+
+        return $this;
+    }
+
+    /**
+     * Get countPassMax
+     *
+     * @return integer
+     */
+    public function getCountPassMax()
+    {
+        return $this->countPassMax;
+    }
 }
-

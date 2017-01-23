@@ -43,5 +43,103 @@ class TurOperator
 
 
 
-}
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->ships = new \Doctrine\Common\Collections\ArrayCollection();
+    }
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     *
+     * @return TurOperator
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set inSale
+     *
+     * @param boolean $inSale
+     *
+     * @return TurOperator
+     */
+    public function setInSale($inSale)
+    {
+        $this->inSale = $inSale;
+
+        return $this;
+    }
+
+    /**
+     * Get inSale
+     *
+     * @return boolean
+     */
+    public function getInSale()
+    {
+        return $this->inSale;
+    }
+
+    /**
+     * Add ship
+     *
+     * @param \CruiseBundle\Entity\Ship $ship
+     *
+     * @return TurOperator
+     */
+    public function addShip(\CruiseBundle\Entity\Ship $ship)
+    {
+        $this->ships[] = $ship;
+
+        return $this;
+    }
+
+    /**
+     * Remove ship
+     *
+     * @param \CruiseBundle\Entity\Ship $ship
+     */
+    public function removeShip(\CruiseBundle\Entity\Ship $ship)
+    {
+        $this->ships->removeElement($ship);
+    }
+
+    /**
+     * Get ships
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getShips()
+    {
+        return $this->ships;
+    }
+}

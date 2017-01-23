@@ -72,7 +72,7 @@ class Page
     /**
      * @var string
      *
-     * @ORM\Column(name="full_url", type="string", length=255)
+     * @ORM\Column(name="full_url", type="string", length=255, unique=true)
      */
     private $fullUrl;
     /**
@@ -105,7 +105,7 @@ class Page
     /**
      * @var string
      *
-     * @ORM\Column(name="body", type="text")
+     * @ORM\Column(name="body", type="text", nullable=true)
      */
     private $body;
 

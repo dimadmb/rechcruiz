@@ -28,8 +28,15 @@
         "helios-ag/fm-elfinder-bundle": "^6.1",
         "friendsofsymfony/user-bundle": "~2.0@dev",
         "twig/extensions": "^1.4",
+        "dimadmb/simple-html-dom-bundle": "dev-master",
         "leaseweb/memcache-bundle": "^2.1"
     },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/dimadmb/SimpleHtmlDomBundle.git"
+        }
+    ],
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
         "symfony/phpunit-bridge": "^3.0"
