@@ -32,7 +32,7 @@ class PageController extends Controller
 		
 		
 		$html = $page->getBody();
-
+/*
 		$html = preg_replace_callback(
 			'/{\{(.*)\}}/U',
 			function ($m) {
@@ -47,6 +47,11 @@ class PageController extends Controller
 			},
 			$html
 		);
+*/
+
+		$html = htmlspecialchars_decode($html,ENT_QUOTES );
+		$template =  $this->container->get('twig')->createTemplate($html);
+		$html = $template->render([]);
 		
 		$page->html = $html;
 		

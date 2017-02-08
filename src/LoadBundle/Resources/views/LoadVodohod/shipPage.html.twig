@@ -1,11 +1,11 @@
 <div class="row">
 	<div class="col-sm-3">
-		<a href="{{img_main}}" class="photo">
-			<img class="img-responsive" alt="" src="{{img_main}}"  />
+		<a href="{{"{{ '"~img_main~"' | imagine_filter('show') }}"}}" class="photo">
+			<img class="img-responsive" alt="" src="{{"{{ '"~img_main~"' | imagine_filter('my_thumb') }}"}}"  />
 		</a>
 		<br>
 		<a href="{{img_deck}}" class="photo">
-			<img     style="border: 2px solid #ccc;    border-radius: 10px;    padding: 10px;" class="img-responsive" alt="" src="{{img_deck}}" />
+			<img     style="border: 2px solid #ccc;    border-radius: 5px;    padding: 5px;" class="img-responsive" alt="" src="{{"{{ '"~img_deck~"' | imagine_filter('my_thumb') }}"}}" />
 		</a>		
 		
 	</div>
@@ -14,5 +14,5 @@
 	</div>
 </div><!--.row-->
 <br>
-{{"{{ [ 'CruiseBundle:Cruise:ship',['ship'=>"~ship_id~"]] ;}}"}}
+{{"{{ render(controller('CruiseBundle:Cruise:ship',{'ship':"~ship_id~"})) }}"}}
 

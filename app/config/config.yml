@@ -12,6 +12,8 @@ imports:
 parameters:
     locale: ru
     upload_directory: "%kernel.root_dir%/../web/files"
+    liip_imagine.jpegoptim.binary: /home/d/dkocheuj/.local/bin/jpegoptim
+
 framework:
     #esi:             ~
     translator:      { fallbacks: [en] }
@@ -130,20 +132,25 @@ liip_imagine :
         cache : ~
 
         my_thumb :
-            quality:              60
             filters :
                 thumbnail  : { size : [200, 150] }
                 #relative_resize: { heighten: 200 }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
 
         show : 
             filters : 
                 #relative_resize: { heighten: 800 }
                 downscale: { max: [1024, 1024] }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
 
         ship :
             #quality:              10
             filters:
                 thumbnail  : { size : [450, 260] }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
 
 ivory_ck_editor: 
     default_config:  default
