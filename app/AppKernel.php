@@ -32,6 +32,8 @@ class AppKernel extends Kernel
 			
 			new Dimadmb\SimpleHtmlDomBundle\DimadmbSimpleHtmlDomBundle(),
 			
+			new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+			
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

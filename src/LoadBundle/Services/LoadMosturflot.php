@@ -231,6 +231,7 @@ class LoadMosturflot  extends Controller
 
 			
 			$em->persist($ship);
+			$em->flush();
 			
 
 		}
@@ -334,13 +335,15 @@ class LoadMosturflot  extends Controller
 				
 				$rt_name = $room_types[$categoryname];
 				
-				//$dump[] = $tourtariffsItem->categorytariffs->item;
+				$dump[] = $cabins;
+				$dump[] = $rt_name->getId();
 				if(isset($cabins[$rt_name->getId()]))
 				{
 					$cabin = $cabins[$rt_name->getId()];
 				}
 				else 
 				{
+					$dump[] = false;
 					continue;
 				}	
 				$rp_id = $room_places_count[$rt_name->getPlaceCountMax()];	
@@ -349,7 +352,7 @@ class LoadMosturflot  extends Controller
 				
 				foreach($tourtariffsItem->categorytariffs->item as $tarriffType)
 				{
-					
+					//$dump[] = $tarriffType;
 					if(isset($tariffs[(string)$tarriffType->tariffname]))
 					{
 						$cruiseTariff = $tariffs[(string)$tarriffType->tariffname];
@@ -474,8 +477,10 @@ class LoadMosturflot  extends Controller
 		
 		$em->flush();
 		
+		$dump[] = "";
+		
 
-		return ["ship"=>$shipName];
+		return ['ship'=>$ship->getName()];
 		
 	}
 	
@@ -527,6 +532,7 @@ class LoadMosturflot  extends Controller
 				'img_main'=>self::PATH_IMG.$shipCode.'/'.$shipCode.'-main.jpg',
 				'ship_description' => $shipBody,
 				'img_deck' => self::PATH_IMG.$shipCode.'/'.$shipCode.'-decks.gif',
+				'ship_id' => $ship_id + 1000,
 				));
 		
 		$em = $this->em;

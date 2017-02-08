@@ -36,7 +36,12 @@ class PageController extends Controller
 		$html = preg_replace_callback(
 			'/{\{(.*)\}}/U',
 			function ($m) {
+				
+				//return htmlspecialchars_decode($m[1],ENT_QUOTES );
+				
 				eval("\$temp = ".htmlspecialchars_decode($m[1],ENT_QUOTES ). " ;");
+				
+				//return $temp;
 				$ret = $this->forward($temp[0],isset($temp[1])?$temp[1]:[])->getContent();
 				return $ret;
 			},

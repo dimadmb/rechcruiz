@@ -284,6 +284,7 @@ class LoadInfoflot  extends Controller
 				'img_main'=>self::PATH_IMG.$shipCode.'/'.$shipCode.'-main.jpg',
 				'ship_description' => $shipBody,
 				'img_deck' => self::PATH_IMG.$shipCode.'/'.$shipCode.'-decks.gif',
+				'ship_id' => $ship_id + 2000,
 				));
 		
 		$em = $this->em;
@@ -521,8 +522,8 @@ class LoadInfoflot  extends Controller
 				}
 
 			}			
-			
-			
+			$em->persist($ship);
+			$em->flush();
 			
 		}
 		/* ПОДГОТОВКА */

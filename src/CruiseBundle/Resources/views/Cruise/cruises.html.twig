@@ -1,0 +1,40 @@
+
+
+{% for monthName , month in months %}
+
+<h1>{{monthName | localizeddate('full', 'none', null, null, ' LLLL Y')}}</h1>
+<table class="table table-cruises  table-striped">
+<colgroup>
+<col width="310">
+<col width="120">
+<col width="75" align="center">
+<col width="35" align="center">
+<col width="75" align="center">
+<col width="10">
+</colgroup>
+<tbody>
+<tr>
+  <th>Маршрут</th>
+  <th>Теплоход</th>
+  <th>Отправление</th>
+  <th>Дней</th>
+  <th>Цена от</th>
+  <th>&nbsp;</th>
+</tr>
+{% for cruise in month %}
+	<tr>
+		<td> <a href="{{path('cruisedetail',{'id':cruise.id})}}">{{cruise.name}}</a></td>
+		
+		<td> <a href="{{path('page',{'url':'ships/'~cruise.ship.code})}}">{{cruise.ship.name}}</a></td>
+		<td> {{cruise.startDate | date("d.m.Y")}}</td>
+		<td> <b>{{cruise.dayCount}}</b></td>
+		<td style="text-align:right; padding-right:40px;"> {{cruise.minPrice | number_format(0, '.', ' ' ) }} руб.</td>
+		<td>
+
+		</td>
+	</tr>
+{% endfor %}
+</tbody>	
+</table>
+
+{% endfor %}

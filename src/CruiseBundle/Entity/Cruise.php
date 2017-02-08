@@ -83,6 +83,20 @@ class Cruise
      * @ORM\ManyToOne(targetEntity="TurOperator")
      */
     private $turOperator;
+	
+	private $minPrice;
+
+	public function getMinPrice() {
+		$res = 0;
+		foreach ($this->prices as $price) {
+			$pr = $price->getPrice();
+			if ($res == 0 || ($pr != 0 && $pr < $res)) {
+				$res = $pr;
+			}
+		}
+		return $res;
+	}		
+	
 
 
     /**

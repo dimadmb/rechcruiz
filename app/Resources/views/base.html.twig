@@ -2,12 +2,29 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+		<meta name="description" content="{% block description %}Речные круизы из Москвы. Круизы по Волге.{% endblock %}">
+		<meta name="keywords" content="{% block keywords %}речные круизы, Москва, туры на теплоходе, круизы выходного дня, круизы по Волге, круизы по рекам, отдых на теплоходах{% endblock %}">		
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-		<link rel="stylesheet" href="{{ asset('css/fancybox/jquery.fancybox.css') }}">
+        {#% block stylesheets %}{% endblock %#}
+		
+		
+		
+{% stylesheets 
+	output="css/styles.css"
+	
+	'css/bootstrap.min.css'
+	'css/bootstrap-slider.css'
+	'css/style.css'
+	'css/fancybox/jquery.fancybox.css'
+	'css/bootstrap-theme.min.css'
+	
+	filter='yui_css'
+	%}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+{% endstylesheets %}
+
+		
+		
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
@@ -33,41 +50,8 @@
 			</div>
 		</div>
 		<div>
-			{#{ render(controller('BaseBundle:Menu:getMenu')) }#}
-<ul id="nav">
-  <li id="rechcruise"><a href="/cruise">Речные круизы</a>
-    <ul>
-      <li><a href="/cruise/month/1459458000.html">Апрель 2016</a></li><li><a href="/cruise/month/1462050000.html">Май 2016</a></li><li><a href="/cruise/month/1464728400.html">Июнь 2016</a></li><li><a href="/cruise/month/1467320400.html">Июль 2016</a></li><li><a href="/cruise/month/1469998800.html">Август 2016</a></li><li><a href="/cruise/month/1472677200.html">Сентябрь 2016</a></li><li><a href="/cruise/month/1475269200.html">Октябрь 2016</a></li><li><a href="/cruise/month/1477947600.html">Ноябрь 2016</a></li><li><a href="/cruise/monthschedule">Все круизы</a></li>    </ul>
-  </li>
-  
-  <li id="ships"><a href="/cruise/classlist">Теплоходы</a>
-    <ul>
-      <li><a href="/cruise/classlist">по комфортабельности</a></li>
-  	  <li><a href="/cruise/alphabetlist">по алфавиту</a></li>
-    </ul>
-  </li>
-  
-  <li id="routes"><a href="/cruise/routes.html">Маршруты</a>
-    
-<ul>
+			{{ render(controller('BaseBundle:Menu:getMenu')) }}
 
-<li><a href="/cruise/categoryroutes/vol.html">Круизы по Волге</a></li><li><a href="/cruise/categoryroutes/vdm.html">Выходные дни из Москвы</a></li><li><a href="/cruise/categoryroutes/kam.html">Круизы по Каме и Белой реке</a></li><li><a href="/cruise/categoryroutes/spb.html">Круизы в Санкт-Петербург, Валаам, Кижи</a></li><li><a href="/cruise/categoryroutes/krg.html">Московская кругосветка</a></li><li><a href="/cruise/categoryroutes/sol.html">Круизы на Соловецкие острова</a></li><li><a href="/cruise/categoryroutes/vds.html">Выходные дни из Санкт-Петербурга</a></li><li><a href="/cruise/categoryroutes/sps.html">Круизы из Петербурга в Петербург, Валаам, Кижи</a></li></ul>  </li>
-  
-  <li id="order"><a href="/cruise/order.html">Бронь и покупка</a></li>
-
-  <li id="info"><a href="/contacts.html">Информация</a>
-    <ul>
-<li><a href="/contacts.html">Контакты</a></li>
-<li><a href="/remember.html">Краткая памятка</a></li>
-</ul>    <!--
-  	<ul>
-      <li><a href="/contacts.html">Контакты</a></li>
-  	  <li><a href="/faq.html">Частые вопросы</a></li>
-  	  <li><a href="/remember.html">Краткая памятка</a></li>
-  	</ul>
-  	 -->
-  </li>
-</ul>
 		</div>
 		</header><!-- .header-->
 {% block slider %}
@@ -78,7 +62,7 @@
 		
 			<div class="container" style="background:#fff;">
 			<div class="col-xs-12 search-main">
-			Поиск 
+			{{ render(controller('CruiseBundle:Search:searchForm')) }}
 			</div>			
 			
 				{% block body %}{% endblock %}
@@ -86,15 +70,24 @@
 		
 			
 		</div><!--.row-->
+		
+		<div class="row">
+			<footer>
+			</footer>
+		</div>
 		</div><!--.container-->
 		
         
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-		<script src="{{ asset('js/jquery.fancybox.js') }}"></script>
+		<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+{% javascripts  output='js/js.js' 'js/bootstrap.min.js' 'js/bootstrap-slider.js' 'js/jquery.fancybox.js' filter='yui_js' %}
+    <script  src="{{ asset_url }}"></script>
+{% endjavascripts %}		
+		
 		<script>
 			$(document).ready(function() {
 				$('.photo').fancybox();
+				$("#days").slider({});
 			})
 		</script>
 		{% block javascripts %}{% endblock %}

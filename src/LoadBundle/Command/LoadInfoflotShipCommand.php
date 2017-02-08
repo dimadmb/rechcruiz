@@ -38,7 +38,7 @@ class LoadInfoflotShipCommand extends ContainerAwareCommand
 
 		$load = $this->getContainer()->get('load.loadinfoflot');
 
-        $output->writeln($load->load($id));
+        $output->writeln($load->load($id,true));
     }
 	
 }

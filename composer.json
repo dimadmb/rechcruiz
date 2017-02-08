@@ -29,7 +29,8 @@
         "friendsofsymfony/user-bundle": "~2.0@dev",
         "twig/extensions": "^1.4",
         "dimadmb/simple-html-dom-bundle": "dev-master",
-        "leaseweb/memcache-bundle": "^2.1"
+        "leaseweb/memcache-bundle": "^2.1",
+        "symfony/assetic-bundle": "^2.8"
     },
     "repositories":[
         {

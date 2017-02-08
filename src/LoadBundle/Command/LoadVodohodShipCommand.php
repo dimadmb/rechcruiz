@@ -38,7 +38,7 @@ class LoadVodohodShipCommand extends ContainerAwareCommand
 
 		$load = $this->getContainer()->get('load.loadvodohod');
 
-        $output->writeln($load->load($id));
+        $output->writeln($load->load($id,true));
     }
 	
 }

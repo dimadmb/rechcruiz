@@ -1,0 +1,228 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Описание речного круиза {{cruise.name}} {{cruise.startDate | date("d.m.Y")}} - {{cruise.endDate | date("d.m.Y")}}{% endblock %}
+{% block description %}Описание речного круиза {{cruise.name}}. Отправление на теплоходе {{cruise.ship.name}} {{cruise.startDate | date("d.m.Y")}}, прибытие {{cruise.endDate | date("d.m.Y")}}. Длительность круиза {{cruise.dayCount}} дней. {% endblock %}
+
+
+{% block body %}
+
+{#{dump()}#}
+
+<h1>Описание речного круиза  «{{cruise.name}}»</h1>
+
+
+
+<p>
+Дата отправления:{{cruise.startDate | date("d.m.Y")}}<br>
+Дата прибытия:{{cruise.endDate | date("d.m.Y")}}<br>
+Длительность круиза (дней): {{cruise.dayCount}}<br>
+Теплоход: <a href="{{path('page',{'url':'ships/'~cruise.ship.code})}}">{{cruise.ship.name}}</a><br>
+Маршрут: {{cruise.name}} 
+</p>
+
+
+<hr>
+<h3>Программа круиза</h3>
+
+<table class="table table-striped ">
+<thead>
+	<tr>
+		<th>Дата</th>
+		<th style="    width: 110px;">Время</th>
+		<th>Стоянка	</th>
+		<th>Программа дня</th>
+	</tr>
+</thead>	
+{% for item in cruise.programs %}
+
+
+
+	<tr>
+		<td>{{item.dateStart | date("d.m.Y")}}</td>
+		<td>{{item.dateStart | date("H:i")}} - {{item.dateStop | date("H:i")}}</td>
+		<td>
+		{% if (item.place != null) and (item.place.url != '')  %}
+			{#<a href="{{path('page',{'first':'cruise','second':'settlement','name':item.place.url})}}"></a>#}{{item.place.name}}
+		{% else %}
+			{{item.placeTitle}}
+		{% endif %}	
+		</td>
+		<td>{{item.description | raw}}</td>
+	</tr>
+
+	
+{% endfor %}	
+</table>
+
+<hr>
+<h3>Стоимость тура на 1 человека * </h3>
+
+<a href="#orderModal" class="btn  btn-danger btn-lg pull-right" data-toggle="modal">Заказать</a>
+
+<form id="orderModalForm" action="">
+<!-- HTML-код модального окна -->
+<div id="orderModal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Заявка на круиз «{{cruise.name}}» </h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+		
+		<input type="hidden" id="orderCruiseId" value="{{cruise.id}}">
+	  
+		<label for="orderName">Представьтесь</label>
+        <input type="text" id="orderName" class="form-control" name="name" placeholder="Как Вас зовут">
+		<br>
+		<label for="orderPhone">Номер телефона</label>
+        <input type="text" id="orderPhone" required="true" class="form-control" name="phone" placeholder="Номер телефона"> 
+		<br>
+		<label for="orderEmail">Электронная почта</label>
+        <input type="text" id="orderEmail" class="form-control" name="email" placeholder="E-mail">
+		<br>
+		<label for="orderMessage">Комментарий к заказу</label>
+		<textarea name="orderMessage" class="form-control" id="orderMessage"  placeholder="Комментарий к заказу" ></textarea>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="submit" id="orderModalSend" class="btn btn-primary">Отправить</button>
+      </div>
+    </div>
+  </div>
+</div>
+</form> 
+
+<br>
+<br>
+
+{% if (cabins != null) %}
+
+
+<table class="table table-striped  ">
+<thead>
+	<tr>
+		<th>Палуба</th>
+		<th>Тип каюты</th>
+		<th>Размещение</th>
+		<th>
+		<table style="width:100%;">
+			<tr>
+				{% for tariff,one in tariff_arr %}	
+					<td style="width:{{ (100/(tariff_arr|length))|round }}%; text-align:center;">
+						{{tariff}}
+					</td>
+				{% endfor %} 
+			</tr>
+		</table>
+		
+		</th>
+	</tr>
+</thead>
+
+
+{% for  deckName, deck in cabins %}
+	{% for type in deck %}
+		{% for rpName, rp in type.rpPrices  %}
+			<tr>
+				<td>{{deckName}}</td>
+				<td>{{type.cabinName}}<br>
+					{#% if (type.rooms|length > 0) %}
+					№№ 
+					{% endif %}
+					{% for room in type.rooms %}
+						<span style="/*color:red;*/ font-weight:700;" >{{room}} </span>
+						
+					{% endfor %#}</td>
+				<td>{{rpName}}</td>
+				<td>
+				<table style="width:100%; ">
+					<tr>
+					
+						{% for tariff,one in tariff_arr %}
+
+						
+						<td style="width:{{ (100/(tariff_arr|length))|round }}%; text-align:center;">
+						
+						{% if (rp.prices[tariff]) is defined %}	
+						
+
+								
+								
+								
+								{% for mealName,meal in rp.prices[tariff] %}
+
+									
+								{% if (type.rooms|length > 0) %}
+									<p style="room"><span >{{mealName}}</span> <b>{{meal.price|number_format(0, '.', ' ')}}  руб.</b></p>
+								{% else %}	
+									<p style=""><span >{{mealName}}</span> <b>{{meal.price|number_format(0, '.', ' ')}}  руб.</b></p>
+								{% endif %}
+									
+									
+									
+								{% endfor %}
+		
+						{% endif %}
+						</td>						
+						
+						{% endfor %}					
+
+					</tr>
+				</table>
+				</td>
+			</tr>
+		{% endfor %}
+	{% endfor %}
+{% endfor %}
+</table>
+
+
+<p>* Цены действительны на момент публикации и могут незначительно измениться до полной оплаты рейса.</p>
+{% else %}
+<p>Нет доступных круизов</p>
+{% endif %}
+
+
+{% endblock %}
+
+
+{% block javascripts %}
+<script>
+	$('#orderModalForm').submit(function(){
+		// ajax отправка 
+		//console.log("отправка");
+		
+		var name = $("#orderName").val();
+		var phone = $("#orderPhone").val();
+		var email = $("#orderEmail").val();
+		var message = $("#orderMessage").val();
+		var cruise_id = $("#orderCruiseId").val();
+	 
+		$.ajax({
+			type: "POST",
+			url: "{{path('order_ajax')}}",
+			data: "name="+ name + "&email="+ email + "&phone="+ phone + "&cruise_id=" + cruise_id + "&message="+ message,
+			success : function(text){
+				console.log(text);
+				
+				if(text == "success"){
+					$('.modal-body').html('<h1>Ваша заявка успешно отправлена.<br> Наши менеджеры свяжутся с Вами в ближайшее время.</h1>');
+					$('#orderModalSend').css({"display":"none"});
+				}
+				
+			}
+		});
+
+		return false;
+		
+	});
+</script>
+{{ parent() }}
+{% endblock %}
+
+

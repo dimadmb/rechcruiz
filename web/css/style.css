@@ -63,6 +63,11 @@ h1 {color: #0099CA; font-size: 16px; font-weight: bold; margin: 10px 0;}
 
 }
 
+footer {
+	background: #fff url(/images/footer.png) no-repeat;
+    height: 291px;
+}
+
 .search-main {
 	background:#b4dded;
 	border:2px solid #bac2d2;
@@ -127,4 +132,25 @@ ul#nav > li > ul > li > a {
 	color:#fff;
 	padding: 5px 10px;
 	white-space: nowrap;
+}
+
+#places div.checkbox {
+    width: 33%;
+    float: left;
+    margin-top: -5px;
+}
+.search-main button[type="submit"] {
+    width: 100%;
+    margin: 20px auto;
+}
+.search-main a[href="#spoiler-1"] {
+    width: 100%;
+}
+
+.table-cruises th{
+    background: #c4c6e0;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    font-weight: normal;
 }
