@@ -91,7 +91,8 @@ class PageController extends Controller
 
 			$em->persist($page);
             $em->flush();
-
+			
+			return $this->redirectToRoute('page', array('url' => $page->getFullUrl()));
             return $this->redirectToRoute('page_show', array('id' => $page->getId()));
         }
 
