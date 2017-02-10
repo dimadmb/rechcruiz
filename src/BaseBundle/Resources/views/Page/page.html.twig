@@ -55,12 +55,17 @@
 {% endif %}
 {% endblock %}
 
+
+
+
 {% block javascripts %}
 {% if is_granted("ROLE_ADMIN") %}
-<script type="text/javascript" src="/web/bundles/ivoryckeditor/ckeditor.js"></script>
-<script>
- $(document).ready(function(){
+<script async type="text/javascript" src="/web/bundles/ivoryckeditor/ckeditor.js"></script>
+{% endif %}
+{% endblock %}
 
+{% block javascriptsonload %}
+{% if is_granted("ROLE_ADMIN") %}
 	$('#edit-inline').click(function(){
 		if($(this).attr("edit") == 'false')
 		{
@@ -97,10 +102,6 @@
 			})
 		}
 	});
- })
- 
- </script>
-
-{% endif %}
-
+{% endif %}	
 {% endblock %}
+

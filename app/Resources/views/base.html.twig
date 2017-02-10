@@ -23,6 +23,13 @@
     <link rel="stylesheet" href="{{ asset_url }}" />
 {% endstylesheets %}
 
+<style>
+.header {
+	height: 196px;
+	background:url(/img/header.png) no-repeat top center;
+
+}
+</style>
 		
 		
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
@@ -78,17 +85,18 @@
 		</div><!--.container-->
 		
         
-		<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		
 {% javascripts  output='js/js.js' 'js/bootstrap.min.js' 'js/bootstrap-slider.js' 'js/jquery.fancybox.js' filter='yui_js' %}
-    <script  src="{{ asset_url }}"></script>
+    <script async src="{{ asset_url }}"></script>
 {% endjavascripts %}		
 		
 		<script>
-			$(document).ready(function() {
+			window.onload = function() {
 				$('.photo').fancybox();
 				$("#days").slider({});
-			})
+			{% block javascriptsonload %}{% endblock %}	
+			}
 		</script>
 		{% block javascripts %}{% endblock %}
     </body>

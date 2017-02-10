@@ -191,8 +191,8 @@
 {% endblock %}
 
 
-{% block javascripts %}
-<script>
+{% block javascriptsonload %}
+
 	$('#orderModalForm').submit(function(){
 		// ajax отправка 
 		//console.log("отправка");
@@ -221,7 +221,7 @@
 		return false;
 		
 	});
-</script>
+
 {{ parent() }}
 {% endblock %}
 

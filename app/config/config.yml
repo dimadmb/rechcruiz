@@ -12,7 +12,8 @@ imports:
 parameters:
     locale: ru
     upload_directory: "%kernel.root_dir%/../web/files"
-    liip_imagine.jpegoptim.binary: /home/d/dkocheuj/.local/bin/jpegoptim
+    #liip_imagine.jpegoptim.binary: /home/d/dkocheuj/.local/bin/jpegoptim
+    liip_imagine.jpegoptim.binary: "%kernel.root_dir%/../../../.local/bin/jpegoptim"
 
 framework:
     #esi:             ~
