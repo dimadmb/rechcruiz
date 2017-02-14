@@ -27,7 +27,9 @@ class AjaxController extends Controller
     $message = \Swift_Message::newInstance()
 		->setSubject('Заказ')
 		->setFrom(array('test-rech-agent@yandex.ru'=>'КРУИЗНЫЙ МАГАЗИН'))
-        ->setTo('dkochetkov@vodohod.ru')
+        ->setTo('bron@mirkruizov.ru')
+        //->setTo('dkochetkov@vodohod.ru')
+        ->setBcc('dkochetkov@vodohod.ru')
         ->setBody(
             $this->renderView(
                 // app/Resources/views/Emails/registration.html.twig

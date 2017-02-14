@@ -84,6 +84,25 @@
 		<label for="orderEmail">Электронная почта</label>
         <input type="text" id="orderEmail" class="form-control" name="email" placeholder="E-mail">
 		<br>
+		
+		<label for="orderAdult">Количество взрослых</label>
+		<select name="orderAdult" id="orderAdult" class="form-control" >
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select>
+		<br>		
+		<label for="orderChild">Количество детей</label>
+		<select name="orderChild" id="orderChild" class="form-control" >
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select>
+		<br>
+		
 		<label for="orderMessage">Комментарий к заказу</label>
 		<textarea name="orderMessage" class="form-control" id="orderMessage"  placeholder="Комментарий к заказу" ></textarea>
       </div>
@@ -200,13 +219,15 @@
 		var name = $("#orderName").val();
 		var phone = $("#orderPhone").val();
 		var email = $("#orderEmail").val();
+		var adult = $("#orderAdult").val();
+		var child = $("#orderChild").val();
 		var message = $("#orderMessage").val();
 		var cruise_id = $("#orderCruiseId").val();
 	 
 		$.ajax({
 			type: "POST",
 			url: "{{path('order_ajax')}}",
-			data: "name="+ name + "&email="+ email + "&phone="+ phone + "&cruise_id=" + cruise_id + "&message="+ message,
+			data: "name="+ name + "&email="+ email + "&adult="+ adult + "&child="+ child + "&phone="+ phone + "&cruise_id=" + cruise_id + "&message="+ message,
 			success : function(text){
 				console.log(text);
 				

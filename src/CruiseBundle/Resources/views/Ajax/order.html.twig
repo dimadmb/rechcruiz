@@ -13,12 +13,20 @@
 			<td>{{post.email}}</td>
 		</tr>
 		<tr>
+			<td>Взрослых</td>
+			<td>{{post.adult}}</td>
+		</tr>
+		<tr>
+			<td>Детей</td>
+			<td>{{post.child}}</td>
+		</tr>
+		<tr>
 			<td>Сообщение</td>
 			<td>{{post.message}}</td>
 		</tr>
 		<tr>
 			<td>Круиз</td>
-			<td>{{cruise.name}} {{cruise.startDate | date(" Y - m - d ")}} {{cruise.ship.name}}
+			<td>{{cruise.name}} <b>{{cruise.startDate  | localizeddate('full', 'none', null, null, 'dd MMMM Y')}}</b> {{cruise.ship.name}}
 			
 
 			
