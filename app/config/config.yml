@@ -13,7 +13,7 @@ parameters:
     locale: ru
     upload_directory: "%kernel.root_dir%/../web/files"
     #liip_imagine.jpegoptim.binary: /home/d/dkocheuj/.local/bin/jpegoptim
-    liip_imagine.jpegoptim.binary: "%kernel.root_dir%/../../../.local/bin/jpegoptim"
+    liip_imagine.jpegoptim.binary: "%kernel.root_dir%/../../../.local/bin/bin/jpegoptim"
 
 framework:
     #esi:             ~
@@ -49,8 +49,8 @@ twig:
 
 # Assetic Configuration
 assetic:
-    debug:          "%kernel.debug%"
-    use_controller: false
+    debug:          '%kernel.debug%'
+    use_controller: '%kernel.debug%'
     bundles:        [ ]
     #java: /usr/bin/java
     filters:
@@ -136,23 +136,23 @@ liip_imagine :
             filters :
                 thumbnail  : { size : [200, 150] }
                 #relative_resize: { heighten: 200 }
-            post_processors:
-                jpegoptim: { strip_all: true, max: 70, progressive: true }
+#            post_processors:
+#                jpegoptim: { strip_all: true, max: 70, progressive: true }
 
         show : 
             filters : 
                 #relative_resize: { heighten: 800 }
                 downscale: { max: [1024, 1024] }
-            post_processors:
-                jpegoptim: { strip_all: true, max: 70, progressive: true }
+#            post_processors:
+#                jpegoptim: { strip_all: true, max: 70, progressive: true }
 
         ship :
             #quality:              10
             filters:
                 thumbnail  : { size : [450, 260], mode: outbound }
                 background: { size: [450, 260], position: center, color: '#ffffff' }
-            post_processors:
-                jpegoptim: { strip_all: true, max: 70, progressive: true }
+#            post_processors:
+#                jpegoptim: { strip_all: true, max: 70, progressive: true }
 
 ivory_ck_editor: 
     default_config:  default

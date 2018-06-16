@@ -71,7 +71,7 @@
 							
 						{% for place in form.places %}	
 							<div class="checkbox">
-								<label class=""><input type="checkbox" id="places_{{place.id}}" name="places[]" value="{{place.placeId}}" {% if place.checked is defined %} checked {% endif %}> {{place.name}}</label>
+								<label class=""><input type="checkbox" id="places_{{place.id}}" name="places[]" value="{{place.id}}" {% if place.checked is defined %} checked {% endif %}> {{place.name}}</label>
 							</div>
 						{% endfor %}	
 
@@ -86,7 +86,7 @@
 	</div>	
 	
 	<div class="col-sm-3" style="padding:0px 15px  0 15px;">
-		<button type="submit" id="form_button" name="form[button]" class="btn-default btn">Поиск</button>	
+		<button type="submit" id="form_button" name="form[button]" class="btn-default btn" onclick="yaCounter46630143.reachGoal('searchcruiz'); return true;">Поиск</button>	
 		
 	</div>	
 

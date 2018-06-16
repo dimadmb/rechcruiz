@@ -24,7 +24,7 @@ class Place
     /**
      * @var int
      *
-     * @ORM\Column(name="place_id", type="integer")
+     * @ORM\Column(name="place_id", type="integer", nullable=true)
      */
     private $placeId;
 

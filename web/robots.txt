@@ -1,5 +1,16 @@
-# www.robotstxt.org/
-# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
-
 User-agent: *
-Disallow:
+Disallow: /admin
+Disallow: /app
+Disallow: /log
+Disallow: /search
+Disallow: /web/
+Clean-param: utm_content&utm_source&utm_medium&utm_term&utm_campaign /
+Clean-param: _openstat /
+Clean-param: gclid&yclid /
+Host: www.rechcruiz.ru
+
+Sitemap: http://www.rechcruiz.ru/sitemap.xml
+
+# Файл создан командой VIPSEO
+# https://www.vipseo.ru
+# 14/11/2017

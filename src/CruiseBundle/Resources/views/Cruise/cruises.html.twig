@@ -2,7 +2,7 @@
 
 {% for monthName , month in months %}
 
-<h1>{{monthName | localizeddate('full', 'none', null, null, ' LLLL Y')}}</h1>
+<h3 class="month-date-navigation">{{monthName | localizeddate('full', 'none', null, null, ' LLLL Y')}}</h3>
 <table class="table table-cruises  table-striped">
 <colgroup>
 <col width="310">
@@ -14,7 +14,7 @@
 </colgroup>
 <tbody>
 <tr>
-  <th>Маршрут</th>
+  <th>Маршрут круиза</th>
   <th>Теплоход</th>
   <th>Отправление</th>
   <th>Дней</th>

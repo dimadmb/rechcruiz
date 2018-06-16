@@ -156,7 +156,7 @@ class LoadMosturflot  extends Controller
 			$cabinsArray = array();
 			foreach($shipXML->answer->shipcabins->item as $item)
 			{
-				$deck = "Неопределена";
+				$deck = "Средняя";
 				if(strpos((string)$item->cabindesc, "средней")) $deck = "Средняя";
 				if(strpos((string)$item->cabindesc, "нижней")) $deck = "Нижняя";
 				if(strpos((string)$item->cabindesc, "главной")) $deck = "Главная";
@@ -454,6 +454,18 @@ class LoadMosturflot  extends Controller
 				$placeName = (string)$tourProgrammItem->cityname;
 
 				$port = isset($places[$placeName]) ? $places[$placeName] : null;
+				
+				if(!isset($places[$placeName]))
+				{
+					$port = new Place();
+					$port
+						->setName($placeName)
+						->setUrl(Helper\Convert::translit($placeName))
+					;
+					$em->persist($port);
+					$em->flush();
+					$places[$placeName] = $port;
+				}
 
 				
 

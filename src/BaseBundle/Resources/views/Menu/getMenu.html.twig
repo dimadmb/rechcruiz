@@ -27,7 +27,7 @@
     <ul{% if rootPages %} id="nav" {% endif %} >
         {% for page in pages if (not page.parent or not rootPages or not page.parent.parent )%}
             <li >
-				   <a href="{{ path('page', { 'url': page.fullUrl }) }}" >{{ page.name }}</a>
+				   <a href="{{ path('page', { 'url': page.fullUrl }) | raw }}" >{{ page.name }}</a>
 
                 {% if page.children|length and page.parent  %}
                     {{ _self.pages(page.children,  false) }}

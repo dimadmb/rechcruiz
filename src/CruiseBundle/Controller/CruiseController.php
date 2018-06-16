@@ -27,7 +27,31 @@ class CruiseController extends Controller
 		return ["months"=>$this->month($cruises)];
     }
 
-    /**
+    
+	/**
+	 * @Template("CruiseBundle:Cruise:cruises.html.twig")	
+	 */
+	public function searchInAction($search = [])
+	{
+		//dump($search);
+		$cruises = $this->searchCruise($search);
+		return ["months"=>$this->month($cruises)];
+	}    
+	
+	
+	/**
+	 * @Template("CruiseBundle:Cruise:cruises.html.twig")	
+	 */
+	public function placeStartAction($place)
+	{
+		
+		$cruises = $this->searchCruise(['placeStart'=>$place]);
+		return ["months"=>$this->month($cruises)];
+		
+		return new Response("OK");
+	}
+	
+	/**
 	 * @Template("CruiseBundle:Cruise:index.html.twig")	
      * @Route("/search", name="search")
      */
@@ -66,7 +90,10 @@ class CruiseController extends Controller
 
     /**
 	 * @Template()	
-     * @Route("/cruise/{id}", name="cruisedetail")
+     * @Route("/cruise/{id}", name="cruisedetail",        
+	 *     requirements={
+     *         "id": "\d+"
+     *     })
      */
 	public function cruiseDetailAction($id)
 	{
@@ -136,7 +163,7 @@ class CruiseController extends Controller
 
 	public function searchCruise($parameters = array())
 	{
-		
+		//dump($parameters);
 		$em = $this->getDoctrine()->getManager();
 		$rsm = new ResultSetMapping;
 		$rsm->addEntityResult('CruiseBundle:Cruise', 'c');
@@ -219,8 +246,22 @@ class CruiseController extends Controller
 			LEFT JOIN place cp ON pi.place_id = cp.id
 			";
 			$where .= "
-			AND cp.place_id IN (".implode(',',$parameters['places']).")";	
+			AND cp.id IN (".implode(',',$parameters['places']).")";	
 			
+		}
+		
+		if(isset($parameters['weekend']))
+		{
+			$join .= "
+			LEFT JOIN cruise_category ON cruise_category.cruise_id = c.id 
+			";
+			$where .= "AND cruise_category.category_id = 11";
+		}
+		
+		if(isset($parameters['likeName']))
+		{
+
+			$where .= "AND c.name LIKE '%".$parameters['likeName']."%'";
 		}
 
 		
@@ -238,6 +279,13 @@ class CruiseController extends Controller
 		{
 			$where .= "
 			AND c.name LIKE '".$parameters['placeStart']."%'";
+		}
+		
+		
+		if(isset($parameters['placeStop']) && ($parameters['placeStop'] != "all" ) )
+		{
+			$where .= "
+			AND c.name LIKE '%".$parameters['placeStop']."'";
 		}
 		
 		$sql = "
@@ -263,7 +311,7 @@ class CruiseController extends Controller
 		
 		
 		
-		WHERE 1
+		WHERE c.endDate >= CURRENT_DATE()
 		"
 		.$where.
 		"

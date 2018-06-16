@@ -53,7 +53,7 @@ class LoadVodohod  extends Controller
 	public function load($ship_id, $update = false)
 	{
 		$dump = [];
-		$base_url = "http://www.vodohod.spb.ru/api/";
+		$base_url = "https://vodohod.spb.ru/api/";
 		$em = $this->doctrine->getManager();
 
 		$cruiseRepos = $this->doctrine->getRepository('CruiseBundle:Cruise');		
@@ -413,7 +413,7 @@ class LoadVodohod  extends Controller
 	/// Данную функцию можно вызвать лишь раз для инициализации или при изменениях у Водохода
 	public function getSPB()
 	{
-		$base_url = "http://www.vodohod.spb.ru/api/";	
+		$base_url = "https://vodohod.spb.ru/api/";	
 		$em = $this->doctrine->getManager();
 		
 		// палубы 

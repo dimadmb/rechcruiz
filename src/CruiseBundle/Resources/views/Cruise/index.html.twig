@@ -1,11 +1,14 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Расписание и цены речных круизов по месяцам на 2017 год{% endblock %}
+{% block title %}Речные круизы 2018 — расписание и цены на 2018 год{% endblock %}
+{% block description %}Круизный магазин — расписание речных круизов в навигацию 2018. Каталог. Цены.{% endblock %}
 
 {% block body %}
 
 {#{dump()}#}
 
-{% include 'CruiseBundle:Cruise:cruises.html.twig'   %}
+<h1>Расписание речных круизов на 2018 год</h1>
+
+{% include 'CruiseBundle:Cruise:cruises.html.twig' %}
 
 {% endblock %}

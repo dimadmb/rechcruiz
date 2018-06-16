@@ -2,6 +2,9 @@
 
 {% block title %}{{page.title}}{% endblock %}
 
+
+{% block description %}{% if ( page.description != "" ) %}{{page.description}}{% else %}{{ parent() }}{% endif %}{% endblock %}
+
 {% block body %}
 
 

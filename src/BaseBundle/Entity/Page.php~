@@ -38,6 +38,7 @@ class Page
 	
 	/**
 	 * @ORM\ManyToMany(targetEntity="Image")
+	 * @ORM\OrderBy({"sort" = "ASC"})
 	 * @ORM\JoinTable(name="page_image", joinColumns={@ORM\JoinColumn(name="page_id",
 		referencedColumnName="id", onDelete="CASCADE")},
 	 * inverseJoinColumns={@ORM\JoinColumn(name="image_id",
@@ -71,7 +72,7 @@ class Page
     /**
      * @var string
      *
-     * @ORM\Column(name="full_url", type="string", length=255)
+     * @ORM\Column(name="full_url", type="string", length=255, unique=true)
      */
     private $fullUrl;
     /**
@@ -100,11 +101,19 @@ class Page
      * @ORM\Column(name="h1", type="string", length=255)
      */
     private $h1;
+	
+	
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description", type="text")
+     */
+    private $description;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="body", type="text")
+     * @ORM\Column(name="body", type="text", nullable=true)
      */
     private $body;
 
@@ -522,6 +531,7 @@ class Page
     public function addChild(\BaseBundle\Entity\Page $child)
     {
         $this->children[] = $child;
+		$child->setParent($this);
 
         return $this;
     }

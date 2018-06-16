@@ -101,6 +101,14 @@ class Page
      * @ORM\Column(name="h1", type="string", length=255)
      */
     private $h1;
+	
+	
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description", type="text", nullable=true)
+     */
+    private $description;
 
     /**
      * @var string
@@ -589,5 +597,29 @@ class Page
     public function getFile()
     {
         return $this->file;
+    }
+
+    /**
+     * Set description
+     *
+     * @param string $description
+     *
+     * @return Page
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    /**
+     * Get description
+     *
+     * @return string
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 }

@@ -1,41 +1,39 @@
 {% extends 'base.html.twig' %}
 
 
-{% block title %}Описание речного круиза {{cruise.name}} {{cruise.startDate | date("d.m.Y")}} - {{cruise.endDate | date("d.m.Y")}}{% endblock %}
-{% block description %}Описание речного круиза {{cruise.name}}. Отправление на теплоходе {{cruise.ship.name}} {{cruise.startDate | date("d.m.Y")}}, прибытие {{cruise.endDate | date("d.m.Y")}}. Длительность круиза {{cruise.dayCount}} дней. {% endblock %}
+{% block title %}Речной круиз «{{cruise.name}}» с {{cruise.startDate | date("d.m.Y")}} по {{cruise.endDate | date("d.m.Y")}}{% endblock %}
+{% block description %}Круизный магазин &mdash; круиз «{{cruise.name}}» с {{cruise.startDate | date("d.m.Y")}} по {{cruise.endDate | date("d.m.Y")}} на теплоходе {{cruise.ship.name}}. Цены.{% endblock %}
 
 
 {% block body %}
 
 {#{dump()}#}
 
-<h1>Описание речного круиза  «{{cruise.name}}»</h1>
+<h1>Речной круиз  «{{cruise.name}}» с {{cruise.startDate | date("d.m.Y")}} по {{cruise.endDate | date("d.m.Y")}}</h1>
 
 
-
-<p>
-Дата отправления:{{cruise.startDate | date("d.m.Y")}}<br>
-Дата прибытия:{{cruise.endDate | date("d.m.Y")}}<br>
-Длительность круиза (дней): {{cruise.dayCount}}<br>
-Теплоход: <a href="{{path('page',{'url':'ships/'~cruise.ship.code})}}">{{cruise.ship.name}}</a><br>
-Маршрут: {{cruise.name}} 
-</p>
+<div class="short-description-cruiz">
+	<b>Дата отправления:</b> {{cruise.startDate | date("d.m.Y")}}<br />
+	<b>Дата прибытия:</b> {{cruise.endDate | date("d.m.Y")}}<br />
+	<b>Длительность круиза (дней):</b> {{cruise.dayCount}}<br />
+	<b>Теплоход:</b> <a href="{{path('page',{'url':'ships/'~cruise.ship.code})}}">{{cruise.ship.name}}</a><br />
+	<b>Маршрут:</b> {{cruise.name}} 
+</div>
 
 
 <hr>
-<h3>Программа круиза</h3>
+<h3 style="margin-bottom: 30px;">Программа круиза</h3>
 
 <table class="table table-striped ">
 <thead>
 	<tr>
-		<th>Дата</th>
-		<th style="    width: 110px;">Время</th>
-		<th>Стоянка	</th>
+		<th style="width: 90px;">Дата</th>
+		<th style="width: 110px;">Время</th>
+		<th style="width: 180px;">Стоянка</th>
 		<th>Программа дня</th>
 	</tr>
 </thead>	
 {% for item in cruise.programs %}
-
 
 
 	<tr>
@@ -56,9 +54,9 @@
 </table>
 
 <hr>
-<h3>Стоимость тура на 1 человека * </h3>
+<h3 style="float: left;margin-bottom: 30px;">Стоимость тура на 1 человека*</h3>
 
-<a href="#orderModal" class="btn  btn-danger btn-lg pull-right" data-toggle="modal">Заказать</a>
+<a href="#orderModal" class="btn  btn-danger btn-lg pull-right" data-toggle="modal">Заказать круиз</a>
 
 <form id="orderModalForm" action="">
 <!-- HTML-код модального окна -->
@@ -109,7 +107,7 @@
       <!-- Футер модального окна -->
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-        <button type="submit" id="orderModalSend" class="btn btn-primary">Отправить</button>
+        <button type="submit" id="orderModalSend" class="btn btn-primary" onclick="yaCounter46630143.reachGoal('zakazcruiza'); return true;">Отправить</button>
       </div>
     </div>
   </div>

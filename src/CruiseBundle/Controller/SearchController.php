@@ -73,7 +73,7 @@ class SearchController extends Controller
 		{
 			foreach($form["places"] as $place)
 			{
-				if(in_array($place->getPlaceId(),$places))
+				if(in_array($place->getId(),$places))
 				{
 					$place->checked = true;
 				}
@@ -94,6 +94,8 @@ class SearchController extends Controller
 			FROM CruiseBundle:Place p 
 			WHERE EXISTS 
 				(SELECT pi FROM CruiseBundle:ProgramItem pi WHERE pi.place = p.id AND p.url <> '' )
+			AND p.name <> 'В пути'				
+			ORDER BY p.name	
 			"
 		);	
 		return $query->getResult();

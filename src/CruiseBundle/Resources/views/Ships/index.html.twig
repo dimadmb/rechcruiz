@@ -1,20 +1,22 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Речные круизные теплоходы — навигация 2018, расписание круизов, фото, схема теплоходов{% endblock %}
+{% block description %}Круизный магазин — речные круизные теплоходы: четырехпалубные, трехпалубные, двухпалубные. Навигация 2018. Каталог. Цены.{% endblock %}
 
 {% block body %}
 
-{% for ship in ships %}
-<div class="col-sm-6 clearfix" style="margin-bottom:10px;">
-	<p style="font-size:16px; text-align:center;">
-		<a href="{{path('page',{'url':'ships/'~ship.code})}}">{{ship.name}}</a><br>
-	</p>
-	
-	<div style="float:left; padding-right:10px;     width: 100%; ">
-		<a href="{{path('page',{'url':'ships/'~ship.code})}}">
-			<img src="{{ ('/files/ship/'~ship.code~'/'~ship.code~'-main.jpg') | imagine_filter('ship') }}" alt="">
-		</a>
-	</div>
+<h1>Речные круизные теплоходы</h1>
 
+{% for ship in ships %}
+<div class="col-sm-6 clearfix" style="margin-bottom: 40px; text-align: center; font-size:16px;">
+	
+	<div>
+		<a title="Теплоход {{ship.name}}" href="{{path('page',{'url':'ships/'~ship.code})}}">
+			<img src="{{ ('/files/ship/'~ship.code~'/'~ship.code~'-main.jpg') | imagine_filter('ship') }}" alt="Теплоход {{ship.name}}">
+		</a>
+		<br />
+		<a href="{{path('page',{'url':'ships/'~ship.code})}}">Теплоход {{ship.name}}</a>
+	</div>
 	
 </div>	
 
