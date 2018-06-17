@@ -312,6 +312,7 @@ class CruiseController extends Controller
 		
 		
 		WHERE c.endDate >= CURRENT_DATE()
+		AND c.active = 1
 		"
 		.$where.
 		"

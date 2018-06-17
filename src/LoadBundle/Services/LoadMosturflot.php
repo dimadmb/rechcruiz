@@ -105,35 +105,32 @@ class LoadMosturflot  extends Controller
 		$cabinPlaceRepos = $this->doctrine->getRepository('CruiseBundle:ShipCabinPlace');		
 		$categoryRepos = $this->doctrine->getRepository('CruiseBundle:Category');
 		
+		
+		// категория выходного дня  kruizy-vyhodnyh-dney
+		$cat_week_end = $categoryRepos->findOneByCode("kruizy-vyhodnyh-dney");
+		
+		
 		$turOperator = $this->doctrine->getRepository('CruiseBundle:TurOperator')->findOneById(2);
 		
 		$shipXML = $this->getShip($ship_id);
 		$shipName = (string)$shipXML->answer->shipname;
 		$shipCode = Helper\Convert::translit($shipName);
+		
+
+			$room_places = array();
+			$room_places_all = $cabinPlaceRepos->findAll();
+			foreach($room_places_all as $room_place)
+			{
+				$room_places[$room_place->getRpName()] = $room_place;
+				$room_places_count[$room_place->getId()] = $room_place;
+			}			
+		
+		
 
 		$cruisesXML = $this->getCruises($ship_id);		
-		
-		$ship = $shipRepos->findOneByCode($shipCode);	
-		if($ship == null  || $update )
-		{
-			$this->ShipPageCreate($ship_id,$shipXML);
-			
-			if ($ship != null) {
-				$em->remove($ship);
-				$em->flush();
-			}
-			$ship = new Ship();
-			
-			$ship
-				->setId(1000 + $ship_id)
-				->setShipId(1000 + $ship_id)
-				->setTurOperator($turOperator)
-				->setName($shipName)
-				->setCode($shipCode)
-				;
-			$em->persist($ship);
-			//$em->flush();	
 
+		
+		
 			// ПОЛУЧИМ СПИСОК ПАЛУБ ИЗ БД
 			
 			$decksAll = $decksRepos->findAll();
@@ -175,7 +172,30 @@ class LoadMosturflot  extends Controller
 				
 				// тут подготовить массив с комнатами
 				$rooms[$deck][(string)$item->cabincategoryname][] = $item;
+			}		
+		
+		
+		$ship = $shipRepos->findOneByCode($shipCode);	
+		if($ship == null  || $update )
+		{
+			$this->ShipPageCreate($ship_id,$shipXML);
+			
+			if ($ship === null) {
+				$ship = new Ship();
 			}
+			
+			$ship
+				->setId(1000 + $ship_id)
+				->setShipId(1000 + $ship_id)
+				->setTurOperator($turOperator)
+				->setName($shipName)
+				->setCode($shipCode)
+				;
+			$em->persist($ship);
+			//$em->flush();	
+
+
+			
 			foreach($cabinsArray as $deckName => $cabinInDeck)
 			{
 				foreach($cabinInDeck as $cabinTypeName => $item)
@@ -197,44 +217,92 @@ class LoadMosturflot  extends Controller
 					
 
 					$cabinType = $cabinTypeRepos->findOneByComment($cabinTypeName);
+					
+					
+					
 					$deck = $decksRepos->findOneByName($deckName);
 					
-					$cabin = new ShipCabin();
-					$cabin
-						->setDeck($deck)
-						->setType($cabinType)
-						->setShip($ship)
+					$cabin = null;
+					foreach($ship->getCabin() as $cabinTemp)
+					{
+						if(($cabinTemp->getType() == $cabinType ) && ($cabinTemp->getDeck() == $deck) )
+						{
+							$cabin = $cabinTemp;
+						}
+					}
+					if(null == $cabin)
+					{
+						$cabin = new ShipCabin();
+						$cabin
+							->setDeck($deck)
+							->setType($cabinType)
+							->setShip($ship)
+						;
+						$ship->addCabin($cabin);					
+					}
+					$cabin->setPlaceCount($room_places_count[$item["place_count"]]);
 					;
-					$em->persist($cabin);
 					
+					
+					//dump($rooms);
+					//dump($cabinTypeName);
 					
 					// НОВОЕ добавим каюты в теплоход					
-					foreach($rooms[$deckName][$cabinTypeName] as $room)
+					foreach($rooms[$deckName][$cabinTypeName] as $roomItem)
 					{
-						$shipRoom = new ShipRoom();
-						$shipRoom
-							->setNumber((string) $room->cabinnumber)
-							->setCountPass((int) $room->cabinmainpass)
-							->setCountPassMax((int) $room->cabinmaxpass)
-							->setCabin($cabin)
-						;
-						$em->persist($shipRoom);
+						$room = null;
+						
+						foreach($ship->getCabin() as $cabinTemp)
+						{
+							foreach($cabinTemp->getRooms() as $roomTemp )
+							{
+								if($roomTemp->getNumber() == $roomItem->cabinnumber )
+								{
+									$room = $roomTemp;
+								}
+							}
+						}	
+
+						//dump($room); 
+
+						if(null == $room)
+						{
+							$room = new ShipRoom();
+							$room
+								->setNumber((string) $roomItem->cabinnumber)
+								->setCabin($cabin)
+								->setCountPass((int) $roomItem->cabinmainpass)
+								->setCountPassMax((int) $roomItem->cabinmaxpass)								
+							;
+							$cabin->addRoom($room);
+							$em->persist($room);						
+						}
+						else
+						{
+							$room
+								->setCabin($cabin)
+								->setCountPass((int) $roomItem->cabinmainpass)
+								->setCountPassMax((int) $roomItem->cabinmaxpass)
+								;
+						}
+						
+
 					}
-					
-					// 	И ДОБАВИМ ЭТИ КАЮТЫ В ТЕПЛОХОД
-					$ship->addCabin($cabin);					
-					
+
+
+					$em->persist($cabin);
 				}
+			
 			}
 			
-
-
 			
+
 			$em->persist($ship);
 			$em->flush();
-			
 
-		}
+		} /*  if($ship == null  || $update ) */
+			
+		
 			/// теперь надо пройтись по круизам и ценам
 			
 			
@@ -244,6 +312,8 @@ class LoadMosturflot  extends Controller
 				$cabins[$cabin->getType()->getId()][$cabin->getDeck()->getDeckId()] = $cabin;
 			}
 			
+
+			
 			/*
 			$cruiseSpecsAll = $cruiseSpecRepos->findAll();
 			foreach($cruiseSpecsAll as $cruiseSpecItem)
@@ -251,13 +321,7 @@ class LoadMosturflot  extends Controller
 				$cruiseSpec[$cruiseSpecItem->getCode()] = $cruiseSpecItem;
 			}
 			*/
-			$room_places = array();
-			$room_places_all = $cabinPlaceRepos->findAll();
-			foreach($room_places_all as $room_place)
-			{
-				$room_places[$room_place->getRpName()] = $room_place;
-				$room_places_count[$room_place->getId()] = $room_place;
-			}	
+
 
 
 			$tariffs = array();
@@ -282,50 +346,81 @@ class LoadMosturflot  extends Controller
 
 		// удаляем все круизы данного теплохода 
 		// нужно оптимизировать в один запрос
+		/*
 		$cruises_remove = $cruiseRepos->findBy(['ship' => $ship]);
 		foreach ($cruises_remove as $cr) {
 			$em->remove($cr);
 		}
 		$em->flush();
+		*/
 
 		
 		/// теперь КРУИЗЫ
+		
+		
 		
 		foreach($cruisesXML->answer->item as $cruiseItem)
 		{
 			$code_mos = (int)$cruiseItem->tourid;
 			$id  = (int)(1000000 + $code_mos);
 			
+			
+			//dump($cruiseItem);
+			
+			// есть ли уже такой круиз?
+			$cruise = $cruiseRepos->findOneById($id);
+			if($cruise === null)
+			{
+				$cruise = new Cruise();
+				//$cruise->addCategory();
+			}
+			else
+			{
+				$cruise->removeAllCategory();
+				$em->flush();
+			}
+			
+			if((int)$cruiseItem->tourid == 1)
+			{
+				//dump("Выходной"); 
+				$cruise->addCategory($cat_week_end);
+			}
+			
 			$route = (string)$cruiseItem->tourroute;
 			$startDate = new \DateTime((string)$cruiseItem->tourstart);
 			$endDate = new \DateTime((string)$cruiseItem->tourfinish);
 			$dayCount = (int)$cruiseItem->tourdays;
 
-			$cruise = new Cruise();
+			
 			
 			$cruise->setId($id);
-			$cruise->setCode($id);			
+			//$cruise->setCode($id);			
 			$cruise->setShip($ship);			
 			$cruise->setName($route);
 			$cruise->setStartDate($startDate);
 			$cruise->setEndDate($endDate);
 			$cruise->setDayCount($dayCount);
 			$cruise->setTurOperator($turOperator);			
+			$cruise->setActive(true);			
 			$em->persist($cruise);
-			
+			$ship->addCruise($cruise);
 			
 			// ЦЕНЫ 
 			foreach($cruiseItem->tourtariffs->item as $tourtariffsItem)
 			{
-				
+
 				$categoryname = (string)$tourtariffsItem->categoryname;
 				// проверим есть ли такой тип каюты, нет - добавим
+				
+				//dump($room_types);
+				
 				if(!isset($room_types[$categoryname]))
 				{
 					$cabinType = new ShipCabinType();
 					$cabinType 
 						->setName($categoryname)
 						->setComment($categoryname)
+						->setPlaceCountMax($item["place_count"])
 					;
 					$em->persist($cabinType);
 					$em->flush();
@@ -335,24 +430,25 @@ class LoadMosturflot  extends Controller
 				
 				$rt_name = $room_types[$categoryname];
 				
-				$dump[] = $cabins;
-				$dump[] = $rt_name->getId();
 				if(isset($cabins[$rt_name->getId()]))
 				{
 					$cabin = $cabins[$rt_name->getId()];
 				}
 				else 
 				{
-					$dump[] = false;
 					continue;
-				}	
-				$rp_id = $room_places_count[$rt_name->getPlaceCountMax()];	
+				}
+				//$rp_id = $room_places_count[$rt_name->getPlaceCountMax()];	
 				
+				//dump($cabin);
 				
+				//$rp_id = $cabin->getPlaceCount();
+				
+
 				
 				foreach($tourtariffsItem->categorytariffs->item as $tarriffType)
 				{
-					//$dump[] = $tarriffType;
+
 					if(isset($tariffs[(string)$tarriffType->tariffname]))
 					{
 						$cruiseTariff = $tariffs[(string)$tarriffType->tariffname];
@@ -394,9 +490,22 @@ class LoadMosturflot  extends Controller
 						foreach($cabin as $cab)
 						{
 														
-							$price = new Price();
+							$price = $em->getRepository("CruiseBundle:Price")->findOneBy([
+												'place' => $cab->getPlaceCount(),
+												'cabin' => $cab,
+												'meals' => $meal,
+												'tariff' => $tarriff,
+												'cruise' => $cruise,
+											]);
+							
+							if(null == $price)
+							{
+								
+								$price = new Price();						
+							}
+							
 							$price	
-									->setPlace($rp_id)
+									->setPlace($cab->getPlaceCount())
 									->setTariff( $tarriff )
 									->setCruise($cruise)
 									->setCabin($cab)    
@@ -405,19 +514,27 @@ class LoadMosturflot  extends Controller
 							;
 							$em->persist($price);
 						}
-						
 
-					
 					}
-					
+
 				}
-					
-					
+
 			} // КОНЕЦ ЦЕН
-			
+			$em->flush();
 			
 			// ПОГРАММЫ КРУИЗОВ
-			$cruiseDetailXML = $this->getCruiseDetail($code_mos);			
+			$cruiseDetailXML = $this->getCruiseDetail($code_mos);
+			
+			// удаляем все программы и грузим заново 
+			$cruise->removeAllProgram();
+			$programm_del = $em->getRepository("CruiseBundle:ProgramItem")->findByCruise($cruise);
+			foreach($programm_del as $p_del)
+			{
+				$em->remove($p_del);
+			}
+			
+			$em->persist($cruise);
+			$em->flush();			
 			
 			foreach($cruiseDetailXML->answer->tourroutedetail->item as $tourProgrammItem)
 			{
@@ -454,18 +571,6 @@ class LoadMosturflot  extends Controller
 				$placeName = (string)$tourProgrammItem->cityname;
 
 				$port = isset($places[$placeName]) ? $places[$placeName] : null;
-				
-				if(!isset($places[$placeName]))
-				{
-					$port = new Place();
-					$port
-						->setName($placeName)
-						->setUrl(Helper\Convert::translit($placeName))
-					;
-					$em->persist($port);
-					$em->flush();
-					$places[$placeName] = $port;
-				}
 
 				
 
@@ -489,8 +594,37 @@ class LoadMosturflot  extends Controller
 		
 		$em->flush();
 		
-		$dump[] = "";
+
+		$em->persist($ship);
+		$em->flush();
 		
+		
+		//dump($ship);
+		
+		$ship->getCruises()->setInitialized(true);
+		$cruises1 = $ship->getCruises()->toArray();
+		$ship2 = $em->createQueryBuilder()
+				->select('s,c')
+				->from("CruiseBundle:Ship",'s')
+				->leftJoin('s.cruises','c')
+				->where('s.id ='.$ship->getId())
+				->getQuery()
+				->getOneOrNullResult()
+			;	
+		$ship2->getCruises()->setInitialized(false);
+		$cruises2 = $ship2->getCruises()->toArray();
+		
+		//dump($cruises1);
+		//dump($cruises2);
+		
+		foreach($cruises2 as $cruise)
+		{
+			if(!in_array($cruise , $cruises1))
+			{
+				$cruise->setActive(false);
+			}
+		}
+		$em->flush();		
 
 		return ['ship'=>$ship->getName()];
 		
@@ -545,6 +679,7 @@ class LoadMosturflot  extends Controller
 				'ship_description' => $shipBody,
 				'img_deck' => self::PATH_IMG.$shipCode.'/'.$shipCode.'-decks.gif',
 				'ship_id' => $ship_id + 1000,
+				'ship_name' => $shipName,
 				));
 		
 		$em = $this->em;
@@ -573,6 +708,7 @@ class LoadMosturflot  extends Controller
 			
 		}
 		
+
 		$page = $this->doctrine->getRepository('BaseBundle:Page')->findOneByFullUrl("ships/".$shipCode);
 		
 		if ($page != null) {
@@ -584,16 +720,15 @@ class LoadMosturflot  extends Controller
 				unlink($dir.'/'.$image->getFilename());
 				$em->remove($image);
 			}
-			$em->remove($page);
+			//$em->remove($page);
 			$em->flush();
 		}
-		
-		$page = new Page();
+		if($page == null) 	$page = new Page();
 		
 		$page 
 				->setParent($pageParent)
 				->setName($shipName)
-				->setTitle($shipName)
+				->setTitle("Теплоход ".$shipName.": цены, маршруты, фото, отзывы, расписание на 2018 год")
 				->setH1($shipName)
 				->setSort(1)
 				->setActive(1)
@@ -606,6 +741,9 @@ class LoadMosturflot  extends Controller
 			;
 			
 			/* ФОТОГРАФИИ */
+			
+			$page->removeAllFile();
+			$em->flush();			
 						
 			$sort = 1;
 			foreach($shipPhotos as $element) 

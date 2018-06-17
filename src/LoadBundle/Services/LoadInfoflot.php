@@ -48,7 +48,7 @@ class LoadInfoflot  extends Controller
 			$c = curl_init();
 			curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($c, CURLOPT_URL, $URL);
-			curl_setopt($c, CURLOPT_TIMEOUT_MS, 2000);
+			curl_setopt($c, CURLOPT_TIMEOUT_MS, 5000);
 			$contents = curl_exec($c);
 			curl_close($c);
 
@@ -128,9 +128,12 @@ class LoadInfoflot  extends Controller
 	// ПОЛУЧИТЬ ФОТОГРАФИИ ТЕПЛОХОДА
 	public function getShipPhotos($ship_id)
 	{
+		$photos = [];
+		
 		$url = self::BASE_URL_KEY."/ShipsPhoto/".$ship_id."/";
 		$json = $this->curl_get_file_contents($url);
 		$array = json_decode($json,true);
+		
 		if(!is_array($array))
 		{
 			return null;
@@ -139,7 +142,11 @@ class LoadInfoflot  extends Controller
 		{
 			$photos[] = $item["full"];
 		}
-		if(!isset($photos)) return null;
+		if(!isset($photos)) 
+		{
+			return null;
+		}
+	
 		return $photos;
 	}
 
@@ -181,7 +188,7 @@ class LoadInfoflot  extends Controller
 		for($i=0;$i<=$cpl;$i++)
 		{
 			$shipPhotos = $this->getShipPhotos($ship_id);
-			if ($shipPhotos != null) break;
+			if ($shipPhotos !== null) break;
 		}
 		for($i=0;$i<=$cpl;$i++)
 		{
@@ -225,7 +232,7 @@ class LoadInfoflot  extends Controller
 		{
 			return array('error' => "Ошибка загрузки фото палуб теплохода");
 		}		
-		elseif($shipPhotos == null)
+		elseif($shipPhotos === null)
 		{
 			return array('error' => "Ошибка загрузки фотографий теплохода");
 		}		
@@ -285,6 +292,7 @@ class LoadInfoflot  extends Controller
 				'ship_description' => $shipBody,
 				'img_deck' => self::PATH_IMG.$shipCode.'/'.$shipCode.'-decks.gif',
 				'ship_id' => $ship_id + 2000,
+				'ship_name' => $shipName,
 				));
 		
 		$em = $this->em;
@@ -323,16 +331,16 @@ class LoadInfoflot  extends Controller
 				unlink($dir.'/'.$image->getFilename());
 				$em->remove($image);
 			}
-			$em->remove($page);
+			//$em->remove($page);
 			$em->flush();
 		}
 		
-		$page = new Page();
+		if($page == null) 	$page = new Page();
 		
 		$page 
 				->setParent($pageParent)
 				->setName($shipName)
-				->setTitle($shipName)
+				->setTitle("Теплоход ".$shipName.": цены, маршруты, фото, отзывы, расписание на 2018 год")
 				->setH1($shipName)
 				->setSort(1)
 				->setActive(1)
@@ -345,7 +353,10 @@ class LoadInfoflot  extends Controller
 			;
 
 			/* ФОТОГРАФИИ */
-						
+
+			$page->removeAllFile();
+			$em->flush();
+			
 			$sort = 1;
 			foreach($shipPhotos as $element) 
 			{
@@ -418,19 +429,56 @@ class LoadInfoflot  extends Controller
 		$turOperator = $this->doctrine->getRepository('CruiseBundle:TurOperator')->findOneById(3);		
 
 
+		// категория выходного дня  kruizy-vyhodnyh-dney
+		$cat_week_end = $categoryRepos->findOneByCode("kruizy-vyhodnyh-dney");
+		
+		
+		// ПОЛУЧИМ СПИСОК ПАЛУБ ИЗ БД
+		
+		$decksAll = $decksRepos->findAll();
+		foreach($decksAll as $deck)
+		{
+			$decksByName[$deck->getName()] = $deck;
+			$decksById[$deck->getDeckId()] = $deck;
+		}
+		
+		// ТИПЫ РАЗМЕЩЕНИЯ
+		$room_places = array();
+		$room_places_all = $cabinPlaceRepos->findAll();
+		foreach($room_places_all as $room_place)
+		{
+			$room_places[$room_place->getRpName()] = $room_place;
+			$room_places_count[$room_place->getId()] = $room_place;
+		}		
+		
+		// ПОЛУЧИМ СПИСОК ТИПОВ КАЮТ ИЗ БД
+		
+		$room_types_all = $cabinTypeRepos->findAll();
+		foreach($room_types_all as $room_type)
+		{
+			$room_types[$room_type->getComment()] = $room_type;
+			$room_typesById[$room_type->getId()] = $room_type;
+		}
 
+		$qb = $em->createQueryBuilder()
+				->select('s,cab,rooms')
+				->from('CruiseBundle:Ship', 's')
+				->leftJoin('s.cabin','cab')
+				->leftJoin('cab.rooms','rooms')
+				->where('s.id = '.($ship_id+2000))
+
+		;
 		
-		
-		$ship = $shipRepos->findOneByCode($shipCode);
+		$ship = $qb->getQuery()->getOneOrNullResult();			
+			
 		if($ship == null  || $update )
 		{
 			$this->ShipPageCreate($ship_id,$shipData);
 			
-			if ($ship != null) {
-				$em->remove($ship);
-				$em->flush();
+			if($ship == null)
+			{
+				$ship = new Ship();
 			}
-			$ship = new Ship();
 
 			$ship
 				->setId(2000 + $ship_id)
@@ -441,22 +489,6 @@ class LoadInfoflot  extends Controller
 				;
 			$em->persist($ship);			
 
-			// ПОЛУЧИМ СПИСОК ПАЛУБ ИЗ БД
-			
-			$decksAll = $decksRepos->findAll();
-			foreach($decksAll as $deck)
-			{
-				$decksByName[$deck->getName()] = $deck;
-				$decksById[$deck->getDeckId()] = $deck;
-			}
-			// ПОЛУЧИМ СПИСОК ТИПОВ КАЮТ ИЗ БД
-			
-			$room_types_all = $cabinTypeRepos->findAll();
-			foreach($room_types_all as $room_type)
-			{
-				$room_types[$room_type->getComment()] = $room_type;
-				$room_typesById[$room_type->getId()] = $room_type;
-			}
 			
 			foreach($shipCabins as $deckName => $cabinss )
 			{
@@ -469,14 +501,22 @@ class LoadInfoflot  extends Controller
 						
 					;	
 					$em->persist($deck);
-					//$em->flush();	
+					$em->flush();	
 					$decksByName[$deck->getName()] = $deck;
 					$decksById[$deck->getDeckId()] = $deck;					
 				}
 				
 				
+
 				foreach($cabinss as $cabinName => $rooms )
 				{
+					
+					$countPlace = 10;
+					foreach($rooms as $room)
+					{
+						$countPlace = $room['count'] < $countPlace ? $room['count'] : $countPlace;
+					}
+					
 					// проверим есть ли такой тип каюты, нет - добавим
 					if(!isset($room_types[$cabinName]))
 					{
@@ -484,29 +524,58 @@ class LoadInfoflot  extends Controller
 						$cabinType 
 							->setName($cabinName)
 							->setComment($cabinName)
-							->setPlaceCountMax($rooms[0]['count'])
+							->setPlaceCountMax($countPlace)
 						;
 						$em->persist($cabinType);
-						//$em->flush();
+						$em->flush();
 						$room_types[$cabinType->getComment()] = $cabinType;
 						$room_typesById[$cabinType->getId()] = $cabinType;					
 					}
 					
-					$cabin = new ShipCabin();
+
 					$cabinType = $cabinTypeRepos->findOneByComment($cabinName);
 					$deck = $decksRepos->findOneByName($deckName);
 					
-					$cabin
-						->setDeck($deck)
-						->setType($cabinType)
-						->setShip($ship)
-					;
-					$em->persist($cabin);
+					$cabin = null;
+					foreach($ship->getCabin() as $cabinTemp)
+					{
+						if(($cabinTemp->getType() == $cabinType ) && ($cabinTemp->getDeck() == $deck) )
+						{
+							$cabin = $cabinTemp;
+						}
+					}
+					if(null == $cabin)
+					{
+						$cabin = new ShipCabin();
+						$cabin
+							->setDeck($deck)
+							->setType($cabinType)
+							->setShip($ship)
+						;
+						$em->persist($cabin);
+						$ship->addCabin($cabin);					
+					}
+					$cabin->setPlaceCount($room_places_count[$countPlace]);
+
 
 					foreach($rooms as $roomItem)
 					{
 
+						$room = null;
+						
+						foreach($ship->getCabin() as $cabinTemp)
+						{
+							foreach($cabinTemp->getRooms() as $roomTemp )
+							{
+								if($roomTemp->getNumber() == $roomItem['name'] )
+								{
+									$room = $roomTemp;
+								}
+							}
+						}
 					
+					if(null == $room)
+					{
 						$room = new ShipRoom();
 						$room
 							->setNumber($roomItem['name'])
@@ -516,29 +585,40 @@ class LoadInfoflot  extends Controller
 						$em->persist($room);
 						$cabin->addRoom($room);
 					}
+					else
+					{
+						$room
+							->setCabin($cabin)
+							->setCountPass($roomItem['count'])
+							//->setCountPassMax((int) $roomItem->cabinmaxpass)
+							;
+					}					
+
+					}
 					// 	И ДОБАВИМ ЭТИ КАЮТЫ В ТЕПЛОХОД
-					$ship->addCabin($cabin);
+					
+					
 
 				}
 
 			}			
 			$em->persist($ship);
+			
+			//dump($ship);
+			
 			$em->flush();
 			
 		}
 		/* ПОДГОТОВКА */
 		$cabins_all = $ship->getCabin();
+		
+		//dump($ship);
+		
 		foreach($cabins_all as $cabin)
 		{
 			$cabins[$cabin->getType()->getId()][$cabin->getDeck()->getDeckId()] = $cabin;
 		}
-		$room_places = array();
-		$room_places_all = $cabinPlaceRepos->findAll();
-		foreach($room_places_all as $room_place)
-		{
-			$room_places[$room_place->getRpName()] = $room_place;
-			$room_places_count[$room_place->getId()] = $room_place;
-		}
+
 		$tariffs = array();
 		$cruiseTariffs = $tariffRepos->findAll();  
 		foreach($cruiseTariffs as $tariff)
@@ -563,12 +643,13 @@ class LoadInfoflot  extends Controller
 		
 		// удаляем все круизы данного теплохода 
 		// нужно оптимизировать в один запрос
+		/*
 		$cruises_remove = $cruiseRepos->findBy(['ship' => $ship]);
 		foreach ($cruises_remove as $cr) {
 			$em->remove($cr);
 		}
 		$em->flush();
-		
+		*/
 		// ТЕПЕРЬ ОБОЙДЁМ ВСЕ КРУИЗЫ ЭТОГО ТЕПЛОХОДА
 		foreach($cruises as $code => $cruise_i)
 		{
@@ -579,18 +660,44 @@ class LoadInfoflot  extends Controller
 			$startDate = new \DateTime($cruise_i["date_start"].' '.$cruise_i["time_start"]);
 			$endDate = new \DateTime($cruise_i["date_end"].' '.$cruise_i["time_end"]);
 			$dayCount = $cruise_i["days"];			
-			$cruise = new Cruise();
 
+			// есть ли уже такой круиз?
+			$cruise = $cruiseRepos->findOneById($code);
+			if($cruise === null)
+			{
+				$cruise = new Cruise();
+			}			
+			else
+			{
+				$cruise->removeAllCategory();
+				$em->flush();
+			}	
+		
+		
+			//dump($cruise_i['weekend']);
+			if($cruise_i['weekend'])
+			{
+				//dump("Выходной");
+				$cruise->addCategory($cat_week_end); 
+			}
+			
+			
 			$cruise
 				->setShip($ship)
 				->setId($code)
-				->setCode($code)
+				//->setCode($code)
 				->setName($route)
 				->setStartDate($startDate)
 				->setEndDate($endDate)
 				->setDayCount($dayCount)
 				->setTurOperator($turOperator)
+				->setActive(true)
 			;
+			$ship->addCruise($cruise);
+			
+			$em->persist($cruise);
+			
+			$em->flush();
 			
 			
 			foreach($cruise_i['prices'] as $priceItem)
@@ -606,6 +713,7 @@ class LoadInfoflot  extends Controller
 						->setComment($priceItem['name'])
 					;
 					$em->persist($cabinType);
+					$em->flush();
 					$room_types[$cabinType->getComment()] = $cabinType;
 					$room_typesById[$cabinType->getId()] = $cabinType;					
 				}
@@ -620,14 +728,27 @@ class LoadInfoflot  extends Controller
 				{
 					continue;
 				}	
-				
+				dump($rt_name);
 				$rp_id = $room_places_count[$rt_name->getPlaceCountMax()];
 
 				foreach($cabin as $cab)
 				{
-					$price = new Price();
+					$price = $em->getRepository("CruiseBundle:Price")->findOneBy([
+										'place' => $cab->getPlaceCount(),
+										'cabin' => $cab,
+										'meals' => $mealss[""],
+										'tariff' => $tariffs[1],
+										'cruise' => $cruise,
+									]);
+					
+					if(null == $price)
+					{
+						
+						$price = new Price();						
+					}
+							
 					$price	
-							->setPlace($rp_id)  
+							->setPlace($cab->getPlaceCount())  
 							->setTariff( $tariffs[1] )
 							->setCruise($cruise)
 							->setCabin($cab)
@@ -636,11 +757,23 @@ class LoadInfoflot  extends Controller
 					;
 					$em->persist($price);
 					
-					if($rt_name->getPlaceCountMax() > 1)
+					if($cab->getPlaceCount()->getRpId() > 1)
 					{
-						$price = new Price();
+						$price = $em->getRepository("CruiseBundle:Price")->findOneBy([
+											'place' => $cab->getPlaceCount(),
+											'cabin' => $cab,
+											'meals' => $mealss[""],
+											'tariff' => $tariffs[2],
+											'cruise' => $cruise,
+										]);
+						
+						if(null == $price)
+						{
+							
+							$price = new Price();						
+						}
 						$price	
-								->setPlace($rp_id)  // а тут можно разрешить запись значения вместо объекта ( -1 запрос) 
+								->setPlace($cab->getPlaceCount())  // а тут можно разрешить запись значения вместо объекта ( -1 запрос) 
 								->setTariff( $tariffs[2] )
 								->setCruise($cruise)
 								->setCabin($cab)
@@ -666,6 +799,17 @@ class LoadInfoflot  extends Controller
 			{
 				return array('error' => "Программа не прогружается ");
 			}
+			
+			// удаляем все программы и грузим заново 
+			$cruise->removeAllProgram();
+			$programm_del = $em->getRepository("CruiseBundle:ProgramItem")->findByCruise($cruise);
+			foreach($programm_del as $p_del)
+			{
+				$em->remove($p_del);
+			}
+			
+			$em->persist($cruise);
+			$em->flush();				
 
 			foreach($programm as $programmItem)
 			{
@@ -701,6 +845,30 @@ class LoadInfoflot  extends Controller
 
 	$em->flush();
 	
+		$em->persist($ship);
+		$em->flush();
+		
+		$ship->getCruises()->setInitialized(true);
+		$cruises1 = $ship->getCruises()->toArray();
+		$ship2 = $em->createQueryBuilder()
+				->select('s,c')
+				->from("CruiseBundle:Ship",'s')
+				->leftJoin('s.cruises','c')
+				->where('s.id ='.$ship->getId())
+				->getQuery()
+				->getOneOrNullResult()
+			;	
+		$ship2->getCruises()->setInitialized(false);
+		$cruises2 = $ship2->getCruises()->toArray();
+		foreach($cruises2 as $cruise)
+		{
+			if(!in_array($cruise , $cruises1))
+			{
+				$cruise->setActive(false);
+			}
+		}
+		$em->flush();	
+		
 	return ["ship"=>$shipName];
 
 

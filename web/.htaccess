@@ -25,8 +25,8 @@ RewriteRule ^cruise/po-oke$ /cruise/river/oka [R=301,L,NC]
 
 
 # Редирект на основное зеркало www.rechcruiz.ru
-RewriteCond %{HTTP_HOST} !^www\.rechcruiz\.ru$ [NC]
-RewriteRule ^(.*)$ http://www.rechcruiz.ru/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^www\.rechcruiz\.ru$ [NC]
+#RewriteRule ^(.*)$ http://www.rechcruiz.ru/$1 [R=301,L]
 	
 	
     # Determine the RewriteBase automatically and set it as environment variable.
