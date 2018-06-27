@@ -728,7 +728,7 @@ class LoadInfoflot  extends Controller
 				{
 					continue;
 				}	
-				dump($rt_name);
+				//dump($rt_name);
 				$rp_id = $room_places_count[$rt_name->getPlaceCountMax()];
 
 				foreach($cabin as $cab)
