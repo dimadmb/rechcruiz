@@ -1,8 +1,8 @@
 {% extends 'base.html.twig' %}
 
 
-{% block title %}Речной круиз «{{cruise.name}}» с {{cruise.startDate | date("d.m.Y")}} по {{cruise.endDate | date("d.m.Y")}}{% endblock %}
-{% block description %}Круизный магазин &mdash; круиз «{{cruise.name}}» с {{cruise.startDate | date("d.m.Y")}} по {{cruise.endDate | date("d.m.Y")}} на теплоходе {{cruise.ship.name}}. Цены.{% endblock %}
+{% block title %}Речной круиз «{{cruise.name}}» с {{cruise.startDate | date("d.m.Y")}} по {{cruise.endDate | date("d.m.Y")}} на теплоходе {{cruise.ship.name}}{% endblock %}
+{% block description %}Круизный магазин &mdash; круиз «{{cruise.name}}» на теплоходе {{cruise.ship.name}} с {{cruise.startDate | date("d.m.Y")}} по {{cruise.endDate | date("d.m.Y")}}. Цены. &#10004;&nbsp;Онлайн бронирование.{% endblock %}
 
 
 {% block body %}

@@ -4,19 +4,22 @@
     <loc>http://www.rechcruiz.ru/</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/river</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/map</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/samara</loc>
+    <loc>http://www.rechcruiz.ru/cruise/river</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/volgograd</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/samara</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/from/nizhniy-novgorod</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/cruise-2019</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships</loc>
@@ -25,13 +28,10 @@
     <loc>http://www.rechcruiz.ru/cruise/from/kazan</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/info</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/river/volga</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/info</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from</loc>
@@ -43,25 +43,28 @@
     <loc>http://www.rechcruiz.ru/cruise/river/kama</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/contacts</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/astrahan</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/river/oka</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/moscow</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/order</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/yaroslavl</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7080</loc>
@@ -76,67 +79,31 @@
     <loc>http://www.rechcruiz.ru/cruise/7079</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004189</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004188</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/from/saratov/ples</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004185</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004184</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004187</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004186</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004181</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004183</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/moscow/sankt-peterburg</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004178</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7091</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7090</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7097</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004177</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7093</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004179</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7092</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004174</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7095</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004173</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004176</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004175</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004170</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004172</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004171</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7094</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7064</loc>
@@ -151,19 +118,22 @@
     <loc>http://www.rechcruiz.ru/cruise/7065</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7060</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/7062</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7061</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7059</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302707</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7058</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302706</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302709</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302708</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7075</loc>
@@ -172,16 +142,28 @@
     <loc>http://www.rechcruiz.ru/cruise/7077</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302710</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/7070</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302712</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302711</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/sankt-peterburg</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7073</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302714</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7072</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302713</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302715</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7068</loc>
@@ -190,124 +172,268 @@
     <loc>http://www.rechcruiz.ru/cruise/7067</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004199</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309396</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/simonov</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309398</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004196</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309399</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7069</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/volgograd/rostov-na-donu</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004198</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/yaroslavl/na-vyhodnye</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004197</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309389</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5930</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309385</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5932</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309386</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5931</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309387</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5946</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309388</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5945</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5949</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5944</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5928</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5929</loc>
+    <loc>http://www.rechcruiz.ru/ships/dve-stolitsy</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/frunze</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/korotkov</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309392</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6393</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309393</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6392</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309394</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6395</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309395</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6394</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309390</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6391</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309391</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6390</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296352</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6389</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296351</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6388</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296354</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6387</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296353</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6397</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296350</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6396</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2301478</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6399</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2301479</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6398</loc>
+    <loc>http://www.rechcruiz.ru/ships/chernyshevsky</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/belinsky</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296355</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301481</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301480</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301483</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301482</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301485</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301484</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301003</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301487</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7492</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301486</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301005</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301489</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301004</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301488</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301007</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301006</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301009</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301008</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297218</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296367</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297216</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296366</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296369</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/lebedinoe-ozero</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296368</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297222</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013828</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296374</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013829</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296373</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297220</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296376</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296375</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/budyonny</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296370</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296372</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296371</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013826</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/saratov/sankt-peterburg</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/from/moscow/nizhniy-novgorod</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6363</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2297234</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6195</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2297232</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6197</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2297230</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6196</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013830</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6191</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013831</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6190</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013832</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6188</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2297238</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297236</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297244</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296396</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296398</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297242</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296397</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301030</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296392</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297240</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296394</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301031</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296393</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301034</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301036</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7035</loc>
@@ -316,58 +442,85 @@
     <loc>http://www.rechcruiz.ru/cruise/7034</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6187</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2297248</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6189</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296399</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297246</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297250</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301047</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7053</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7052</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2301046</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7055</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/knyazhna--anastasiya</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7054</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7054</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2301049</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303229</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303227</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6198</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/river/kama/nizhniy-novgorod</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2301491</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013863</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013864</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301011</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7022</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7021</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013865</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/shashkov</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2301013</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/river/kama/kazan</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2301016</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013866</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013861</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013867</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013862</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7031</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6184</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/7030</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6183</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6186</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7033</loc>
@@ -379,148 +532,202 @@
     <loc>http://www.rechcruiz.ru/ships/kronshtadt</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6185</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6180</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6182</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6181</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/7028</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7027</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/7024</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/7029</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg/mayskie-prazdniki</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7024</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012439</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/7023</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6422</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302284</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6425</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012438</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6423</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012436</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6424</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012435</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6421</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302286</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6420</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012434</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302285</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302287</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013769</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7997</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7998</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004865</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7995</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004866</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7996</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7993</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004864</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7994</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7991</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7992</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/moscow/na-vyhodnye</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6427</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296878</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6426</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296873</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6429</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7999</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6428</loc>
+    <loc>http://www.rechcruiz.ru/ships/rostropovich</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5592</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296882</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012449</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012448</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012447</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307986</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307987</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg/solovki</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/pushkin</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6434</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6433</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5589</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6436</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6435</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6430</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296408</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307988</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/moscow/valaam</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296407</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012443</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/karl-marks</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296887</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6432</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012442</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296409</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012441</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6431</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296400</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6438</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296402</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6439</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296401</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6437</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303110</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303111</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012456</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/nnovgorod</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6401</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012455</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6890</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303112</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303118</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303119</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004889</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303116</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303117</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6643</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6400</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7975</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6642</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004888</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7976</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6645</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6403</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004885</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7973</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6644</loc>
@@ -529,10 +736,25 @@
     <loc>http://www.rechcruiz.ru/ships/gorky</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004886</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7974</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7971</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004883</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296419</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6402</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7972</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004884</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296418</loc>
@@ -541,37 +763,3067 @@
     <loc>http://www.rechcruiz.ru/cruise/6641</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004881</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013300</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6640</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6409</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7970</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296415</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004882</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296414</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012454</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6408</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004880</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296417</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012452</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296416</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6405</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012451</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296411</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7979</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012450</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6646</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7977</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7978</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296420</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012468</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012469</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014645</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7990</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004878</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004879</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004876</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7986</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004877</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7987</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004874</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7984</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004875</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7985</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7982</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7983</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7980</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7981</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012464</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012462</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7506</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/river/kama/samara</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7507</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7988</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7989</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004423</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6224</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6221</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6220</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004422</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6223</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6222</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013335</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013336</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013337</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013338</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013339</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013333</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004892</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013334</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004890</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004891</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013346</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6203</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6202</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013340</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/knyazhna-viktoriya</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6205</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013341</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6204</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013342</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013343</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013344</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004444</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6201</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004443</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013345</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6200</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6214</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6216</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6213</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6215</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6212</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6218</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6217</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6219</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7919</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7910</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/zhukov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004464</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004463</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7917</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7918</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7915</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004462</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7916</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004461</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7913</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7914</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7911</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7912</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014227</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013379</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013371</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7920</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004459</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7921</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013375</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013376</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7928</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301809</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301808</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7929</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7926</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7927</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7924</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7925</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7922</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7923</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013384</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013386</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7908</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013381</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7909</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013393</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013394</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/suvorov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004475</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7906</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7907</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7904</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004473</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7902</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7905</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7903</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/yaroslavl/valaam</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7901</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7900</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/ilya-muromets</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/solnechnyy-gorod</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7953</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7954</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7951</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7952</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7950</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7959</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7957</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7958</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7955</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7956</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/mihail-bulgakov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6632</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7964</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7965</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/river/kama/saratov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6634</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7962</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6633</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7963</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7960</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7961</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6639</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6636</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7968</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6635</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7969</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6638</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7966</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6637</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7967</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014261</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/andrey-rublev</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307110</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307111</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301810</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7931</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301812</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301811</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7932</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301814</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6601</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7930</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6600</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301813</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301816</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296858</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301815</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301818</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301817</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7939</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7937</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7938</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7935</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7936</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6602</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296853</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7933</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7934</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/river/volga/sankt-peterburg</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7942</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7943</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7940</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7941</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296868</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/river/volga/moscow</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7948</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7949</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7946</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7947</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7944</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296863</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7945</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308161</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/volgograd/kazan</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308162</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308163</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013099</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013098</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308186</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6908</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/moscow/ples</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6907</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308187</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308188</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308189</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301559</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6904</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308193</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308194</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6903</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308195</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6906</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308196</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6905</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308190</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6902</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308191</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308192</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308197</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308198</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303741</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308199</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303742</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303740</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303749</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303747</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303748</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308168</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308169</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308164</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308165</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308166</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308167</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308171</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308172</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308173</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308174</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308170</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308179</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013917</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308175</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308176</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308177</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308178</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301543</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013912</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308182</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308183</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308184</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308185</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308180</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308181</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303770</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303771</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004908</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004909</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004906</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004907</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7363</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303772</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7360</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004904</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004905</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302445</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004903</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302447</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8206</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8207</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302449</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8204</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8205</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8202</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8203</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8200</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8201</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/volgograd/ples</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7372</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7370</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302459</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303752</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303753</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6492</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303750</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303751</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6494</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303757</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6493</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7337</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6490</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7338</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6489</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/moscow/astrahan</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6488</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303758</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303759</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7333</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7331</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6487</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6486</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303763</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7339</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303764</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004917</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004918</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004915</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303762</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004916</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303767</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004913</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004914</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303768</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303765</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303766</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004911</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004912</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004910</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6499</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303769</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6495</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6496</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302480</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6497</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297361</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302482</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297362</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302481</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302484</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302483</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302486</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302485</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7397</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8245</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302491</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302493</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302492</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302495</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302494</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302497</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302496</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8257</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8258</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8256</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302460</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302462</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302461</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302464</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302463</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303797</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7381</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7378</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297399</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302471</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302470</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302473</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302475</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302472</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302474</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7390</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296992</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013402</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7880</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013886</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013404</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7876</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7877</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7874</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7875</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7872</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7873</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7870</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7871</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296998</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7878</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296995</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7879</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6549</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/astrahan/moscow</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013412</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7890</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7891</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013898</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6560</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013418</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013419</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7887</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6555</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7888</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7885</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7886</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013891</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6556</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7883</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013892</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6551</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013893</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7884</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6550</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7881</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6553</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7882</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6552</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013895</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6559</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6558</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301050</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7889</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303231</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301054</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303230</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/astrahan/kazan</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013423</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301058</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301059</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6522</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7854</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7855</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7852</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6523</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7850</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7851</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6520</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7858</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7859</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6525</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7856</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6528</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7857</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6527</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301061</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301060</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301063</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301062</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301065</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301064</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301067</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301066</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7865</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6532</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7866</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7863</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7864</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7861</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7862</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6531</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6530</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7860</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7869</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7867</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7868</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/moscow/solovki</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012114</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6591</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6590</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6593</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6592</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6589</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/kapitan-pushkarev</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012113</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012112</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297400</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012129</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012128</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012127</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/moscow/na-3-4-dnya</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012126</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012125</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6599</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6598</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6595</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6594</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6597</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012124</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6596</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012123</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012122</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012121</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso/kazan</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012138</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012137</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012136</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6571</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6570</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7898</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6565</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7899</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6568</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6567</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7897</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004568</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7894</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6561</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7895</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6564</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7892</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7893</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012135</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012133</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012134</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012132</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012131</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012130</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6569</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012149</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012148</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012147</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004556</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6576</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6573</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6572</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6575</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6574</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7420</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012146</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012145</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012144</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012143</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012142</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012141</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012140</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/moscow/kazan</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012159</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012158</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004589</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004588</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004587</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg/na-3-4-dnya</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004586</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012157</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012156</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012155</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012154</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012153</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012151</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012152</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012150</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309400</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309402</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309401</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309403</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/n_a_-nekrasov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7809</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012169</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309408</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309409</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309404</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309405</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309406</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309407</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004578</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012160</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004577</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7800</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004579</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7807</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012168</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7808</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012167</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7805</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012166</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012165</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7806</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012164</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7803</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012163</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7804</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012162</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7801</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012161</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7802</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012170</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012171</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012179</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012178</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012176</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012175</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012172</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012173</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012182</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5609</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012181</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012180</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004595</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004592</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5606</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5605</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012189</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004591</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5608</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012188</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004594</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012187</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5607</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5601</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012186</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004590</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012185</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012183</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012184</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7832</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012193</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012192</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7833</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7830</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012191</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012190</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6502</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014375</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7831</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6501</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7838</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7839</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012197</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7837</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7836</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6503</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012196</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012195</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7834</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7835</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012194</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7843</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6511</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7844</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6513</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7841</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7842</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7840</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296968</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6519</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6518</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7849</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7847</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6514</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7848</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6517</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7845</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309411</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7846</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309412</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309413</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309414</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309419</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309415</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309416</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309417</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309418</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7811</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7810</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3015243</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004168</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7818</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7819</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7816</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296977</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7814</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/sergey-esenin</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296971</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7815</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296974</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7812</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296980</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7813</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309420</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7822</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7820</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/rodnaya-rus</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296986</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7829</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296989</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7827</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7828</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7825</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296983</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7826</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7823</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308269</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7824</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308263</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8176</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8177</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8174</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8175</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8172</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8173</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8170</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8171</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8169</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8167</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8168</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308270</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308271</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308272</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/volgograd/moscow</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308273</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004181</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297057</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308278</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308279</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297055</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8180</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297056</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297053</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308274</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297054</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308275</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308276</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297052</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308277</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8187</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8188</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8185</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8186</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8183</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8184</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8181</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004177</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8182</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8178</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8179</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004179</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004173</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004176</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004175</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004170</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297059</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004171</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297068</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308245</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297069</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308246</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308247</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297066</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308248</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297067</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308241</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297064</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308242</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297065</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297062</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308243</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308244</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297063</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8154</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297060</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8155</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297061</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8152</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8153</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308249</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8150</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8151</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8149</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8147</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8148</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8145</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8146</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308250</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308251</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308256</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297079</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308258</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308257</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297077</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297078</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297075</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308252</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308253</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297076</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297073</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308254</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308255</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297074</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297071</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8165</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297072</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8166</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8163</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8164</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297070</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8161</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8162</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8160</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8158</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8159</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004199</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/simonov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8156</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8157</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004196</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308260</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308261</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004198</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308262</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004197</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297086</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297087</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301670</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301672</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297085</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301671</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301674</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297080</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301673</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014097</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5946</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5949</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5945</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/5944</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8190</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8191</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011841</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8198</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8199</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8196</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8197</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8194</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8195</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8192</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8193</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301658</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301659</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8189</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308292</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308295</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308294</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308291</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011857</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011856</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011855</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011854</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011853</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308296</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011852</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308297</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011851</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308298</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308299</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011850</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301661</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301660</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301663</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301662</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301664</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011859</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011858</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301669</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/korotkov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/volgograd/astrahan</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012715</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012714</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012713</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012712</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012711</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011861</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3011860</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8100</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7253</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/astrahan/volgograd</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6397</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6399</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/belinsky</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6363</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/ivan-kulibin</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297001</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302121</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302123</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8132</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302122</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8133</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7283</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8130</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302125</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8131</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302124</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302127</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7280</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302126</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302129</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7282</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302128</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7281</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8129</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8127</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8128</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso/samara</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8125</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8126</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7279</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8124</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7278</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302130</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302132</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302131</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8143</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302134</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302133</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8144</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8141</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7294</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302136</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8142</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302135</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302138</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7296</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8140</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302137</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8138</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8139</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8136</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8137</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8134</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8135</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/knyazhna--anastasiya</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7262</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8111</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7261</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7264</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/river/kama/nizhniy-novgorod</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7263</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7260</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8107</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7259</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7258</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8108</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8103</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8106</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/river/kama/kazan</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7255</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8101</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7257</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8102</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7256</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/shashkov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8109</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012308</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012307</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012306</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012305</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012304</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012303</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8121</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7273</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7272</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7274</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013637</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7271</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012309</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8118</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7269</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8115</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7266</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7268</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7265</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7267</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7755</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7756</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6422</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7753</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7754</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6424</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7751</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7752</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7750</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7759</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6427</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6426</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7757</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7758</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6428</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7770</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/pushkin</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7766</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6434</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7767</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6433</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7764</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7765</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6435</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7762</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6430</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/karl-marks</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7763</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7760</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6432</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7761</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6438</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6437</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7768</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301177</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7769</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301176</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6890</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7733</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6401</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7734</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6400</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6403</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7731</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7730</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7732</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7739</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7737</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6889</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6646</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7738</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6888</loc>
@@ -580,55 +3832,52 @@
     <loc>http://www.rechcruiz.ru/cruise/6404</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296410</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7735</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296413</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7736</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6407</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014404</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296412</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014405</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6406</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296420</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6412</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7744</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6896</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6411</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7745</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6895</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6898</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7742</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6414</loc>
+    <loc>http://www.rechcruiz.ru/ships/fedin</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6413</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7743</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6897</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/7740</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6892</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6891</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7741</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6410</loc>
+    <loc>http://www.rechcruiz.ru/cruise/6891</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6894</loc>
@@ -640,175 +3889,103 @@
     <loc>http://www.rechcruiz.ru/cruise/6419</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6416</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7748</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6899</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7749</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/river/kama/samara</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6415</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7746</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6418</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/7747</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6417</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/kazan/mayskie-prazdniki</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014414</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6470</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7799</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6230</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7797</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6472</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7798</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6471</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7795</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6467</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013562</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6466</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7796</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6224</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013563</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004423</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013564</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6227</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7794</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004424</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6469</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6468</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6463</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6221</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004420</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6462</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6220</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6465</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004422</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6223</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6464</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6222</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004421</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6229</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6228</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6481</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7318</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6480</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6483</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6241</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6482</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6240</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004419</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004418</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6236</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7330</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6478</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/7325</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7327</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6477</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6235</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6238</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7326</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6479</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6237</loc>
+    <loc>http://www.rechcruiz.ru/ships/dmitriy-furmanov</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6474</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7329</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6232</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7328</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6473</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012259</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6231</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012258</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6476</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6234</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6475</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6233</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6239</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012257</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6450</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/aleksandr-nevskiy</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004208</loc>
@@ -820,166 +3997,91 @@
     <loc>http://www.rechcruiz.ru/cruise/1004209</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5598</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004446</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6203</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6445</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004445</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6444</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5597</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6202</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/ships/knyazhna-viktoriya</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7775</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6447</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6205</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5599</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/1004206</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004447</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6446</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6204</loc>
+    <loc>http://www.rechcruiz.ru/cruise/5599</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004442</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7773</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004205</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7774</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5594</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7771</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6441</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7772</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5593</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012256</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004200</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6440</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004441</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5596</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6443</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6201</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004444</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5595</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004443</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004201</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6442</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6200</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012255</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6449</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6207</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004440</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6206</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6448</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6209</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012269</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6208</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012268</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6460</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7791</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6461</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7792</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6214</loc>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso/rostov-na-donu</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004439</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7790</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004438</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7303</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7788</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6456</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/7302</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7789</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6455</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6213</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6216</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6458</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004436</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6215</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6210</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6457</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/saratov/volgograd</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6452</loc>
@@ -988,43 +4090,82 @@
     <loc>http://www.rechcruiz.ru/cruise/6451</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6212</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6454</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6211</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012267</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6453</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6218</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012266</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6217</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012265</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012264</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7307</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012263</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012262</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012261</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012260</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307332</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307333</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/sergey-obraztsov</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6219</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307334</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/zhukov</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307335</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5972</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307330</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307331</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307336</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307337</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307338</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307339</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012270</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004226</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5971</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004225</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004225</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014451</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6821</loc>
@@ -1048,100 +4189,163 @@
     <loc>http://www.rechcruiz.ru/cruise/1004223</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5979</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6826</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5976</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/1004220</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6828</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012272</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5978</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012271</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6824</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307343</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6825</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307344</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5977</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307345</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307346</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307340</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307341</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307342</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307347</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004219</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004218</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307348</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6830</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307349</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004218</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/5983</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004214</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/5985</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6832</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004698</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/5984</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004217</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004211</loc>
+    <loc>http://www.rechcruiz.ru/cruise/5981</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004210</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004213</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5981</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5980</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6838</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/5987</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004212</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/5989</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5986</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307312</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5988</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308644</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307313</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014479</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307318</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307319</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308645</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307314</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308646</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307315</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307316</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307317</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014471</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014472</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014473</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014474</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014475</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307321</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307322</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307323</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307324</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307320</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/aleksandr-benua</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6819</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307329</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/suvorov</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307325</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307326</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307327</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014484</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307328</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014485</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014488</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6816</loc>
@@ -1153,103 +4357,247 @@
     <loc>http://www.rechcruiz.ru/cruise/6818</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6814</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6813</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6817</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/solnechnyy-gorod</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014481</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308223</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307376</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308224</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307377</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308225</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308226</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307372</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308220</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307373</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308221</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307374</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307375</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308227</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308228</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308229</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013163</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6863</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6860</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014494</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013165</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014496</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004269</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004268</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014498</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6629</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014499</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6628</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7719</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6627</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307380</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/mihail-bulgakov</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307381</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6626</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7717</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6632</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307382</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/river/kama/saratov</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7718</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6631</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7715</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6634</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7716</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6633</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014491</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6630</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013161</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6639</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308234</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6636</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308235</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6635</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308237</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6638</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307383</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6637</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308230</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/andrey-rublev</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308231</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6841</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307384</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6840</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308232</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6601</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308233</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6843</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308238</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308239</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013173</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7722</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7723</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7720</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013175</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7721</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013178</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014025</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7728</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308240</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7729</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7726</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7727</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7724</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013172</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308201</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7725</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307354</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308202</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307355</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308203</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307356</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308204</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307350</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307352</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308200</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307353</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308209</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308205</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307358</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308206</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307359</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308207</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308208</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/5990</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6842</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6600</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004288</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/5992</loc>
@@ -1258,19 +4606,7 @@
     <loc>http://www.rechcruiz.ru/cruise/5991</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004289</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/1004287</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6849</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6848</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004284</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004283</loc>
@@ -1279,40 +4615,79 @@
     <loc>http://www.rechcruiz.ru/cruise/1004286</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004285</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307360</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6602</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308212</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307365</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004280</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/river/volga/sankt-peterburg</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308213</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004281</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307366</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6852</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308214</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004282</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307367</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6854</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308215</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6851</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307368</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6853</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/yaroslavl/astrahan</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/river/volga/moscow</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307362</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004277</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2308210</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307363</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308211</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307364</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308216</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307369</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308217</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/tolstoy</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308218</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2308219</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013196</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013197</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013199</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004276</loc>
@@ -1327,55 +4702,148 @@
     <loc>http://www.rechcruiz.ru/cruise/1004273</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004272</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307371</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004274</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309235</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6856</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004275</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6855</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6858</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6857</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/saratov/mayskie-prazdniki</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309236</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004271</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309237</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309238</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309233</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309234</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8055</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8053</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309239</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8054</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8051</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8052</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8050</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8049</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8047</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8046</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309240</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309241</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309246</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309247</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297179</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309248</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309249</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297177</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309242</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/from/nizhniy-novgorod/ples</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004270</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309243</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297175</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309244</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/tsezar</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/radishchev</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004299</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309245</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8066</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8067</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8064</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8065</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8063</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8060</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8061</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8059</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8057</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8058</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309250</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004294</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004298</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309251</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004296</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004290</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309252</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004293</loc>
@@ -1384,64 +4852,313 @@
     <loc>http://www.rechcruiz.ru/cruise/1004292</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297188</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297185</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8033</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8034</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297182</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8031</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8032</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/ships/nikolay-karamzin</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8030</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303911</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8028</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8029</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8026</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7178</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8027</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8024</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8025</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8045</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8042</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8043</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2297191</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8040</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8041</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/river/kama/volgograd</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/moscow/ples</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8039</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6907</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8037</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6908</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8038</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2303734</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8035</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2303735</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8036</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2303736</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309279</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6904</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8091</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6906</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8090</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6903</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8092</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6905</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309275</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6902</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309276</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6901</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309277</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6272</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309278</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6271</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8097</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6274</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8099</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6273</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8098</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8095</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8096</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8093</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8094</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309280</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309281</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309258</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/lunnaya-sonata</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309253</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8070</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309254</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309255</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309256</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8077</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8078</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/aleksandr-sveshnikov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8075</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8076</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8073</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301775</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301774</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8074</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301777</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8071</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301776</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8072</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301779</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2301778</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8068</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8069</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309260</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309261</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309262</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309263</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8080</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309268</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309269</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8081</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309264</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309265</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309266</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309267</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8088</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8089</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8086</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8087</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8084</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8085</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8082</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8083</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309271</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8079</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309272</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309273</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309274</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309270</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302684</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302686</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302685</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302688</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302687</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6270</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6269</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302689</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/i_a_-krilov</loc>
@@ -1456,214 +5173,109 @@
     <loc>http://www.rechcruiz.ru/cruise/6264</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/7595</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6267</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6266</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/yaroslavl/kazan</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/volgograd/ples</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302691</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6283</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302690</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6282</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302693</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302692</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302695</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302694</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302697</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6285</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/2302696</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6284</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6281</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6280</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6279</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6276</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6275</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6278</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6277</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/ships/dzerzhinsky</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296255</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/andropov</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6250</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7580</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6492</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7581</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6491</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302666</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6494</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302665</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6252</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302668</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6493</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302667</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6251</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302669</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6490</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7579</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6247</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302671</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6489</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7573</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6246</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302670</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/moscow/astrahan</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302673</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6488</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7593</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6249</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302672</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6248</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7594</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6485</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2302674</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6243</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7592</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6484</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6242</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6245</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6487</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6244</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296257</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6486</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296256</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296259</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296258</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296264</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296266</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296263</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296265</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296262</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296260</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296261</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6261</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6260</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6263</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/yaroslavl/sankt-peterburg</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6262</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6258</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6499</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6257</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6496</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6259</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6254</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6495</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6253</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6256</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6497</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6498</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296268</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296267</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6255</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296269</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296275</loc>
@@ -1672,46 +5284,85 @@
     <loc>http://www.rechcruiz.ru/cruise/2296274</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296276</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296277</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296277</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296276</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296271</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296273</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/samara/mayskie-prazdniki</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296272</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296279</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8011</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7163</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7162</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8012</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8010</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7164</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg/na-vyhodnye</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296278</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7161</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296286</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8008</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8009</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7159</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8006</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8007</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8004</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8005</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8002</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8003</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296279</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296278</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296285</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296288</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296282</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012888</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296281</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296282</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296284</loc>
@@ -1720,37 +5371,61 @@
     <loc>http://www.rechcruiz.ru/cruise/2296283</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/8022</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8023</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8020</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296280</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296289</loc>
+    <loc>http://www.rechcruiz.ru/cruise/8021</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296297</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7170</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296296</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303107</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303108</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303106</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8019</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8017</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2303109</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8018</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8015</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8016</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8013</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/7169</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8014</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/chicherin</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296299</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296298</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296293</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296295</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296294</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6294</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6293</loc>
@@ -1759,10 +5434,13 @@
     <loc>http://www.rechcruiz.ru/ships/kuchkin</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/7143</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6296</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296290</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7142</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6295</loc>
@@ -1774,196 +5452,109 @@
     <loc>http://www.rechcruiz.ru/cruise/6292</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6291</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6287</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6286</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004722</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6289</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6288</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/saratov/astrahan</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso/sankt-peterburg</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg/ples</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/8000</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/8001</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/ships/vasiliy-chapaev</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2297399</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012314</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6298</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012312</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6297</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6299</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/nizhniy-novgorod/mayskie-prazdniki</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6544</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012313</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6302</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6543</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6301</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6546</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6304</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6545</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6303</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6540</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012311</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6300</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012310</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6541</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014502</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6542</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014503</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6548</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014504</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6309</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014505</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6306</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014506</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6547</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004735</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6305</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3014507</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6308</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004732</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6549</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7645</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6307</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7646</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6560</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004731</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6555</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004734</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6313</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004733</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6554</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/volgograd/sankt-peterburg</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6312</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7647</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6557</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7648</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6556</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6315</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6314</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6551</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6550</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6553</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6552</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6311</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6559</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6310</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6317</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6558</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6316</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6319</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6522</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6318</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6521</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6524</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6523</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6520</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6529</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6528</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6525</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6527</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6532</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6535</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012348</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296309</loc>
@@ -1972,76 +5563,16 @@
     <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg/valaam</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296308</loc>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso/yaroslavl</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6531</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6530</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296305</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296304</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296307</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296306</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296301</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6537</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6536</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296300</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6539</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296303</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296302</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6538</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296310</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/moscow/solovki</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6591</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6590</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6593</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7626</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6351</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6592</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6350</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004306</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004307</loc>
@@ -2053,16 +5584,10 @@
     <loc>http://www.rechcruiz.ru/cruise/1004308</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6588</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6346</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/1004303</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6587</loc>
+    <loc>http://www.rechcruiz.ru/cruise/6346</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004302</loc>
@@ -2071,22 +5596,19 @@
     <loc>http://www.rechcruiz.ru/cruise/6345</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6348</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/1004305</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6589</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6342</loc>
+    <loc>http://www.rechcruiz.ru/cruise/6348</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004304</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6347</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013200</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6342</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296319</loc>
@@ -2095,64 +5617,52 @@
     <loc>http://www.rechcruiz.ru/cruise/6341</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6586</loc>
+    <loc>http://www.rechcruiz.ru/cruise/1004301</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6344</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004301</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6585</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/1004300</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6343</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296316</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/6343</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296318</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296317</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296312</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296311</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6349</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296314</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2297400</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2296321</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296313</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296321</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296320</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/moscow/na-3-4-dnya</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012369</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012368</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012367</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6360</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/river/kama/moscow</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013215</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013216</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6362</loc>
@@ -2161,16 +5671,13 @@
     <loc>http://www.rechcruiz.ru/cruise/6361</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6357</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6599</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6598</loc>
+    <loc>http://www.rechcruiz.ru/cruise/river/kama/moscow</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6356</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6357</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6359</loc>
@@ -2182,28 +5689,19 @@
     <loc>http://www.rechcruiz.ru/cruise/6353</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6595</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6594</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6352</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6597</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/6355</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6596</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012366</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/6354</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296327</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6354</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012365</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296326</loc>
@@ -2233,85 +5731,79 @@
     <loc>http://www.rechcruiz.ru/cruise/2296331</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6571</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303034</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6566</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013225</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6570</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303037</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6324</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303038</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6565</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013226</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6323</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013227</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6568</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303035</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/moscow/mayskie-prazdniki</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303036</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6326</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013228</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004568</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013229</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6325</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6567</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013222</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6562</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013223</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6561</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013224</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6320</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6564</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6563</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6322</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2296337</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6321</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012377</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296338</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012376</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296337</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012375</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012374</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296339</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3012373</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296334</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6328</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296333</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6569</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6327</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3012371</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296336</loc>
@@ -2320,49 +5812,25 @@
     <loc>http://www.rechcruiz.ru/cruise/2296335</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2303282</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296341</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6329</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/2303283</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/2296340</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/2303281</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/2296342</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6580</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2303048</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6340</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6582</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004556</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7667</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6335</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6581</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6334</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6576</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013230</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/6337</loc>
@@ -2371,157 +5839,181 @@
     <loc>http://www.rechcruiz.ru/cruise/1004310</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6336</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6573</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6330</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6572</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6575</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/1004312</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6333</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6574</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004311</loc>
   </url>
   <url>
+    <loc>http://www.rechcruiz.ru/cruise/2296349</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309632</loc>
+  </url>
+  <url>
     <loc>http://www.rechcruiz.ru/cruise/6339</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/moscow/kazan</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6338</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/saratov/kazan</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/ships/sobolev</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004347</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309631</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004346</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309634</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/from/sankt-peterburg/na-3-4-dnya</loc>
+    <loc>http://www.rechcruiz.ru/ships/kosmonavt-gagarin</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5610</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309633</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004348</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309630</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004343</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309639</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004342</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309635</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004344</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309636</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/n_a_-nekrasov</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309638</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004362</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309637</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013241</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013240</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013242</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3014575</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013243</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/3013246</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309643</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309642</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309645</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309644</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309641</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309640</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/from/yaroslavl/moscow</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309647</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309646</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309649</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309648</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/ships/a_s_-popov</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004368</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/1004367</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004366</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5609</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309629</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004358</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309623</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5600</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309628</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004354</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309625</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004350</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309624</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5606</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309627</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5605</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309626</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5608</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309676</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5607</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309675</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5602</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309678</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/5601</loc>
+    <loc>http://www.rechcruiz.ru/ships/oktyabrskaya-revolyutsiya</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6500</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309677</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6502</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309672</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6501</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309671</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6507</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309674</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6508</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309673</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6509</loc>
+    <loc>http://www.rechcruiz.ru/cruise/from/saratov/moscow</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6503</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309679</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6504</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013283</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6506</loc>
+    <loc>http://www.rechcruiz.ru/cruise/3013287</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6505</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004380</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6511</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004379</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6510</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6513</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6512</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309680</loc>
   </url>
   <url>
     <loc>http://www.rechcruiz.ru/cruise/1004376</loc>
@@ -2530,60 +6022,96 @@
     <loc>http://www.rechcruiz.ru/cruise/1004375</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004378</loc>
-  </url>
-  <url>
-    <loc>http://www.rechcruiz.ru/cruise/6519</loc>
-  </url>
-  <url>
     <loc>http://www.rechcruiz.ru/cruise/1004374</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6518</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7603</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6515</loc>
+    <loc>http://www.rechcruiz.ru/cruise/7604</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6514</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309654</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6517</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309653</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004370</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309656</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6516</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309655</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004167</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309650</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6961</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309652</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004166</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309651</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004169</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309658</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/6960</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309657</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004168</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309659</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004163</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307486</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004165</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309665</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/ships/sergey-esenin</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2307487</loc>
   </url>
   <url>
-    <loc>http://www.rechcruiz.ru/cruise/1004164</loc>
+    <loc>http://www.rechcruiz.ru/cruise/2309664</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309667</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309666</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309661</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309660</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309663</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309662</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2307485</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309668</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309669</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/2309670</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso/moscow/na-vyhodnye</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso/moscow/na-nedelyu</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso/moscow</loc>
+  </url>
+  <url>
+    <loc>http://www.rechcruiz.ru/cruise/zolotoe-koltso</loc>
   </url>
 </urlset>

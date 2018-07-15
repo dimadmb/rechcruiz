@@ -4,13 +4,13 @@ Disallow: /app
 Disallow: /log
 Disallow: /search
 Disallow: /web/
+
 Clean-param: utm_content&utm_source&utm_medium&utm_term&utm_campaign /
 Clean-param: _openstat /
 Clean-param: gclid&yclid /
-Host: www.rechcruiz.ru
 
 Sitemap: http://www.rechcruiz.ru/sitemap.xml
 
 # Файл создан командой VIPSEO
 # https://www.vipseo.ru
-# 14/11/2017
+# 28/06/2018

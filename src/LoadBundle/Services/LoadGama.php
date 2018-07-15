@@ -299,7 +299,7 @@ class LoadGama  extends Controller
 			{
 				//dump($ways);
 				
-				file_put_contents ("log.txt","теплоход ".$ways->attributes()['ship_iid']."\n".date("Y-m-d H:i:s")."\n\n", FILE_APPEND | LOCK_EX);
+				//file_put_contents ("log.txt","теплоход ".$ways->attributes()['ship_iid']."\n".date("Y-m-d H:i:s")."\n\n", FILE_APPEND | LOCK_EX);
 				
 				foreach($ways->ways->way as $way)
 				{

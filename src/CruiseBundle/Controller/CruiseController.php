@@ -250,6 +250,19 @@ class CruiseController extends Controller
 			
 		}
 		
+		if(isset($parameters['andPlaces']))
+		{
+			$join .= "
+			LEFT JOIN program_item pi ON pi.cruise_id = c.id
+			
+			";
+			
+			foreach($parameters['andPlaces'] as $placeId) {
+				$where .= "
+			AND pi.place_id = $placeId ";
+			}
+		}
+		
 		if(isset($parameters['weekend']))
 		{
 			$join .= "
