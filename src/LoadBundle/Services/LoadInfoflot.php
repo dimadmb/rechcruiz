@@ -702,7 +702,7 @@ class LoadInfoflot  extends Controller
 			
 			foreach($cruise_i['prices'] as $priceItem)
 			{
-				
+				if ($priceItem['price'] == 0) continue;
 				
 				// проверим есть ли такой тип каюты, нет - добавим
 				if(!isset($room_types[$priceItem['name']]))
